@@ -1,96 +1,82 @@
 import pyglet as pg
 import logging
 import os
+from board import Board
 
-window = pg.window.Window(resizable=True)
+class Main(pg.window.Window):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        
+        if os.path.exists('log.txt'):
+            os.remove('log.txt')
+        logging.basicConfig(filename='log.txt', level=logging.INFO)
+        
+        self.image = pg.image.load('terrain.bmp')
+        self.image_x = 0
+        self.image_y = 0
+        self.scale = 1.0
+        self.update_tick = 1/30
+        self.background = pg.sprite.Sprite(self.image.get_region(self.image_x, self.image_y, int(self.width / self.scale), int(self.height / self.scale)), subpixel=True)
+        
+        self.lines = pg.graphics.Batch()
+        
+        self.board = Board()
+        
+        pg.clock.schedule_interval(self.update, self.update_tick)
 
-if os.path.exists('log.txt'):
-    os.remove('log.txt')
+    def update(self, dt):
+        self.background.delete()
+        self.image_x = max(0, self.image_x)
+        self.image_y = max(0, self.image_y)
+        self.image_x = int(min(self.image.width - self.width / self.scale, self.image_x))
+        self.image_y = int(min(self.image.height - self.height / self.scale, self.image_y))
+        self.background = pg.sprite.Sprite(self.image.get_region(self.image_x, self.image_y, int(self.width / self.scale), int(self.height / self.scale)), subpixel=True)
+        self.background.scale = self.scale
+        
+        if dt < 1/30:
+            pass
+        elif dt/self.update_tick > 2:
+            self.update_tick *= 1.1
+            pg.clock.unschedule(self.update)
+            pg.clock.schedule_interval(self.update, self.update_tick)
+            self.on_mouse_scroll(0, 0, 0, 1)
+        elif dt/self.update_tick < 1.1:
+            self.update_tick /= 1.1
+            pg.clock.unschedule(self.update)
+            pg.clock.schedule_interval(self.update, self.update_tick)
 
-logging.basicConfig(filename='log.txt', level=logging.INFO)
+    def on_close(self):
+        logging.info("Closing the application")
+        pg.app.exit()
 
-# Load the image
-image: pg.image.AbstractImage = pg.image.load('terrain.bmp')
+    def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):
+        self.image_x -= dx / self.scale
+        self.image_y -= dy / self.scale
+        self.image_x = max(0, min(self.image.width - self.width / self.scale, self.image_x))
+        self.image_y = max(0, min(self.image.height - self.height / self.scale, self.image_y))
 
-image_x = 0
-image_y = 0
-scale = 1.0  # Initial scale factor
+    def on_mouse_scroll(self, x, y, scroll_x, scroll_y):
+        prev_scale = self.scale
+        self.scale *= (1.1 ** scroll_y)
+        self.scale = max(0.66, self.scale)
+        
+        center_x = self.width / 2.0 / prev_scale + self.image_x
+        center_y = self.height / 2.0 / prev_scale + self.image_y
+        
+        offset_x = (center_x - self.image_x) * prev_scale
+        offset_y = (center_y - self.image_y) * prev_scale
+        
+        self.image_x = center_x - offset_x / self.scale
+        self.image_y = center_y - offset_y / self.scale
+        self.image_x = max(0, min(self.image.width - self.width / self.scale, self.image_x))
+        self.image_y = max(0, min(self.image.height - self.height / self.scale, self.image_y))
 
-update_tick = 1/30
+    def on_draw(self):
+        self.clear()
+        pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
+        self.background.draw()
+        gui.draw_line(self, (0, 0), (self.width, self.height))
 
-background = pg.sprite.Sprite(image.get_region(image_x, image_y, int(window.width / scale), int(window.height / scale)), subpixel=True)
-
-def update(dt):
-    global background, image_x, image_y, update_tick, scale
-    background.delete()
-    
-    image_x = max(0, image_x)
-    image_y = max(0, image_y)
-    image_x = int(min(image.width - window.width / scale, image_x))
-    image_y = int(min(image.height - window.height / scale, image_y))
-    
-    background = pg.sprite.Sprite(image.get_region(image_x, image_y, int(window.width / scale), int(window.height / scale)), subpixel=True)
-    background.scale = scale
-    
-    if dt < 1/30:
-        pass
-    elif dt/update_tick > 2:
-        update_tick *= 1.1
-        pg.clock.unschedule(update)
-        pg.clock.schedule_interval(update, update_tick)
-        on_mouse_scroll(0, 0, 0, 1)
-    
-    elif dt/update_tick < 1.1:
-        update_tick /= 1.1
-        pg.clock.unschedule(update)
-        pg.clock.schedule_interval(update, update_tick)
-    
-    #logging.info(f"Update: {dt/update_tick}")
-
-@window.event
-def on_close():
-    logging.info("Closing the application")
-    pg.app.exit()
-
-@window.event
-def on_mouse_drag(x, y, dx, dy, buttons, modifiers):
-    global image_x, image_y
-    image_x -= dx / scale
-    image_y -= dy / scale
-    
-    # Ensure image stays within bounds
-    image_x = max(0, min(image.width - window.width / scale, image_x))
-    image_y = max(0, min(image.height - window.height / scale, image_y))
-
-@window.event
-def on_mouse_scroll(x, y, scroll_x, scroll_y):
-    global scale, image_x, image_y
-    prev_scale = scale
-    scale *= (1.1 ** scroll_y)
-    scale = max(0.66, scale)
-    
-    # Calculate the center point of the window
-    center_x = window.width / 2.0 / prev_scale + image_x
-    center_y = window.height / 2.0 / prev_scale + image_y
-    
-    # Calculate the offset from the center point
-    offset_x = (center_x - image_x) * prev_scale
-    offset_y = (center_y - image_y) * prev_scale
-    
-    # Update the image position based on the offset
-    image_x = center_x - offset_x / scale
-    image_y = center_y - offset_y / scale
-    
-    # Ensure image stays within bounds
-    image_x = max(0, min(image.width - window.width / scale, image_x))
-    image_y = max(0, min(image.height - window.height / scale, image_y))
-
-@window.event
-def on_draw():
-    window.clear()
-    pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
-    background.draw()
-
-pg.clock.schedule_interval(update, update_tick)
-
-pg.app.run(1/30)
+if __name__ == "__main__":
+    main = Main(resizable=True)
+    pg.app.run(1/30)
