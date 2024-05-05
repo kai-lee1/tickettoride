@@ -45,7 +45,7 @@ def update(dt):
         pg.clock.unschedule(update)
         pg.clock.schedule_interval(update, update_tick)
     
-    logging.info(f"Update: {dt/update_tick}")
+    #logging.info(f"Update: {dt/update_tick}")
 
 @window.event
 def on_close():
@@ -93,4 +93,4 @@ def on_draw():
 
 pg.clock.schedule_interval(update, update_tick)
 
-pg.app.run()
+pg.app.run(1/30)
