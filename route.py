@@ -1,1 +1,0 @@
-#length, color, endpoints, owner 
