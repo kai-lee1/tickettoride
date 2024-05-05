@@ -1,0 +1,1 @@
+#hand, score. we can add the destination tickets later
