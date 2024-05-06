@@ -72,7 +72,7 @@ class Main(pg.window.Window):
     def on_mouse_scroll(self, x, y, scroll_x, scroll_y):
         prev_scale = self.scale
         self.scale *= (1.1 ** scroll_y)
-        self.scale = max(0.66, self.scale)
+        self.scale = max(0.66, min(self.scale, 3.0))
         
         center_x = self.width / 2.0 / prev_scale + self.shift_x
         center_y = self.height / 2.0 / prev_scale + self.shift_y
