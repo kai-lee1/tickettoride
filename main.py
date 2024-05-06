@@ -95,4 +95,5 @@ class Main(pg.window.Window):
 
 if __name__ == "__main__":
     main = Main(resizable=True)
-    pg.app.run(1/30)
+    pg.clock.schedule_interval(main.update, 1/30)
+    pg.app.run()
