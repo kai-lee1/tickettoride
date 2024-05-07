@@ -59,6 +59,8 @@ class Main(pg.window.Window):
             c2 = data['c2']
             c2 = np.array([c2[0] - self.shift_x, self.image.height - self.shift_y - c2[1]]) * self.scale
             cost = data['cost']
+            if c1[0] < 0 or c1[0] >= self.width or c1[1] < 0 or c1[1] >= self.height or c2[0] < 0 or c2[0] >= self.width or c2[1] < 0 or c2[1] >= self.height:
+                continue
             self.routes = np.append(self.routes, misc.create_lines(np.array(c1), np.array(c2), self.scale, cost))
         
         if dt < misc.target_fps:
@@ -67,7 +69,6 @@ class Main(pg.window.Window):
             self.update_tick *= 1.1
             pg.clock.unschedule(self.update)
             pg.clock.schedule_interval(self.update, self.update_tick)
-            #self.on_mouse_scroll(0, 0, 0, 1)
         elif dt/self.update_tick < 1.1:
             self.update_tick /= 1.1
             pg.clock.unschedule(self.update)
