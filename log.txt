@@ -1,1 +1,2005 @@
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205CBB704F0>
+ <pyglet.shapes.Line object at 0x00000205E62F2A70>
+ <pyglet.shapes.Line object at 0x00000205E62F3130>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2A70>
+ <pyglet.shapes.Line object at 0x00000205E62F2860>
+ <pyglet.shapes.Line object at 0x00000205E632C550>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2860>
+ <pyglet.shapes.Line object at 0x00000205E62F3730>
+ <pyglet.shapes.Line object at 0x00000205E632D5A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2860>
+ <pyglet.shapes.Line object at 0x00000205E632C340>
+ <pyglet.shapes.Line object at 0x00000205E632E5F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F30D0>
+ <pyglet.shapes.Line object at 0x00000205E632E500>
+ <pyglet.shapes.Line object at 0x00000205E632EAD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F37C0>
+ <pyglet.shapes.Line object at 0x00000205E632E5C0>
+ <pyglet.shapes.Line object at 0x00000205E632F9D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2A40>
+ <pyglet.shapes.Line object at 0x00000205E632F7C0>
+ <pyglet.shapes.Line object at 0x00000205E634CA60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2BF0>
+ <pyglet.shapes.Line object at 0x00000205E632F9A0>
+ <pyglet.shapes.Line object at 0x00000205E632EE90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2830>
+ <pyglet.shapes.Line object at 0x00000205E632FDC0>
+ <pyglet.shapes.Line object at 0x00000205E634D960>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F3100>
+ <pyglet.shapes.Line object at 0x00000205E632F5E0>
+ <pyglet.shapes.Line object at 0x00000205E634E980>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F670>
+ <pyglet.shapes.Line object at 0x00000205E634CA90>
+ <pyglet.shapes.Line object at 0x00000205E632F790>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205CBB70520>
+ <pyglet.shapes.Line object at 0x00000205E634E620>
+ <pyglet.shapes.Line object at 0x00000205E634FB80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2AA0>
+ <pyglet.shapes.Line object at 0x00000205E632F5B0>
+ <pyglet.shapes.Line object at 0x00000205E63646D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F5B0>
+ <pyglet.shapes.Line object at 0x00000205E634E650>
+ <pyglet.shapes.Line object at 0x00000205E6365720>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632EE90>
+ <pyglet.shapes.Line object at 0x00000205E634E9E0>
+ <pyglet.shapes.Line object at 0x00000205E6364A60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F820>
+ <pyglet.shapes.Line object at 0x00000205E6364370>
+ <pyglet.shapes.Line object at 0x00000205E6366890>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634E9B0>
+ <pyglet.shapes.Line object at 0x00000205E6366560>
+ <pyglet.shapes.Line object at 0x00000205E63678E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632DC00>
+ <pyglet.shapes.Line object at 0x00000205E63667D0>
+ <pyglet.shapes.Line object at 0x00000205E63656F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634E9E0>
+ <pyglet.shapes.Line object at 0x00000205E63675B0>
+ <pyglet.shapes.Line object at 0x00000205E6380A90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632EE90>
+ <pyglet.shapes.Line object at 0x00000205E63665C0>
+ <pyglet.shapes.Line object at 0x00000205E6381AE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F5B0>
+ <pyglet.shapes.Line object at 0x00000205E6380880>
+ <pyglet.shapes.Line object at 0x00000205E6366A40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634FCD0>
+ <pyglet.shapes.Line object at 0x00000205E6380A30>
+ <pyglet.shapes.Line object at 0x00000205E6382BC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F5B0>
+ <pyglet.shapes.Line object at 0x00000205E6380AC0>
+ <pyglet.shapes.Line object at 0x00000205E63837C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634D9F0>
+ <pyglet.shapes.Line object at 0x00000205E6383490>
+ <pyglet.shapes.Line object at 0x00000205E63A0850>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D360>
+ <pyglet.shapes.Line object at 0x00000205E6380A60>
+ <pyglet.shapes.Line object at 0x00000205E634D9F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63665C0>
+ <pyglet.shapes.Line object at 0x00000205E6383700>
+ <pyglet.shapes.Line object at 0x00000205E63A14E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63661D0>
+ <pyglet.shapes.Line object at 0x00000205E6383970>
+ <pyglet.shapes.Line object at 0x00000205E63A2530>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6366F20>
+ <pyglet.shapes.Line object at 0x00000205E63A1030>
+ <pyglet.shapes.Line object at 0x00000205E63A3580>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63819F0>
+ <pyglet.shapes.Line object at 0x00000205E63A0940>
+ <pyglet.shapes.Line object at 0x00000205E63A3730>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634F6D0>
+ <pyglet.shapes.Line object at 0x00000205E63A3370>
+ <pyglet.shapes.Line object at 0x00000205E6A54220>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63653F0>
+ <pyglet.shapes.Line object at 0x00000205E63A3FA0>
+ <pyglet.shapes.Line object at 0x00000205E6A55270>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6383BB0>
+ <pyglet.shapes.Line object at 0x00000205E6A551B0>
+ <pyglet.shapes.Line object at 0x00000205E6366110>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6382BF0>
+ <pyglet.shapes.Line object at 0x00000205E63A22F0>
+ <pyglet.shapes.Line object at 0x00000205E6A56110>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63A2200>
+ <pyglet.shapes.Line object at 0x00000205E63833D0>
+ <pyglet.shapes.Line object at 0x00000205E6A56CB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D360>
+ <pyglet.shapes.Line object at 0x00000205E6A552A0>
+ <pyglet.shapes.Line object at 0x00000205E6A57D00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A560B0>
+ <pyglet.shapes.Line object at 0x00000205E6A550C0>
+ <pyglet.shapes.Line object at 0x00000205E63A2530>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63A38B0>
+ <pyglet.shapes.Line object at 0x00000205E6A56A70>
+ <pyglet.shapes.Line object at 0x00000205E63668C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6365450>
+ <pyglet.shapes.Line object at 0x00000205E6A55780>
+ <pyglet.shapes.Line object at 0x00000205E634C790>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634CD30>
+ <pyglet.shapes.Line object at 0x00000205E63A22F0>
+ <pyglet.shapes.Line object at 0x00000205E62F2680>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634F010>
+ <pyglet.shapes.Line object at 0x00000205E63A0580>
+ <pyglet.shapes.Line object at 0x00000205E6A54160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632F670>
+ <pyglet.shapes.Line object at 0x00000205E63A37F0>
+ <pyglet.shapes.Line object at 0x00000205E6A6CB20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2D40>
+ <pyglet.shapes.Line object at 0x00000205E63A3E80>
+ <pyglet.shapes.Line object at 0x00000205E6A6D270>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E63A2A40>
+ <pyglet.shapes.Line object at 0x00000205E6A6D9C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634CD30>
+ <pyglet.shapes.Line object at 0x00000205E63A37F0>
+ <pyglet.shapes.Line object at 0x00000205E6A6CAC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F28C0>
+ <pyglet.shapes.Line object at 0x00000205E63A3490>
+ <pyglet.shapes.Line object at 0x00000205E6A6E1A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E634CD30>
+ <pyglet.shapes.Line object at 0x00000205E63A3220>
+ <pyglet.shapes.Line object at 0x00000205E6A6EB00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F28C0>
+ <pyglet.shapes.Line object at 0x00000205E6A6D8D0>
+ <pyglet.shapes.Line object at 0x00000205E6A6FB50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6A6CCA0>
+ <pyglet.shapes.Line object at 0x00000205E63A0940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2F80>
+ <pyglet.shapes.Line object at 0x00000205E6A6F820>
+ <pyglet.shapes.Line object at 0x00000205E6A947F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2F80>
+ <pyglet.shapes.Line object at 0x00000205E6A6FAF0>
+ <pyglet.shapes.Line object at 0x00000205E6A95840>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A550C0>
+ <pyglet.shapes.Line object at 0x00000205E6A945E0>
+ <pyglet.shapes.Line object at 0x00000205E63A3220>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2F80>
+ <pyglet.shapes.Line object at 0x00000205E6A945E0>
+ <pyglet.shapes.Line object at 0x00000205E6A96860>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A54F10>
+ <pyglet.shapes.Line object at 0x00000205E6A94730>
+ <pyglet.shapes.Line object at 0x00000205E6A97280>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6A95780>
+ <pyglet.shapes.Line object at 0x00000205E6AA4340>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2F80>
+ <pyglet.shapes.Line object at 0x00000205E6A954E0>
+ <pyglet.shapes.Line object at 0x00000205E6A965C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A6FAF0>
+ <pyglet.shapes.Line object at 0x00000205E6A97FD0>
+ <pyglet.shapes.Line object at 0x00000205E6AA50C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6A969E0>
+ <pyglet.shapes.Line object at 0x00000205E6AA6050>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A6E200>
+ <pyglet.shapes.Line object at 0x00000205E6AA4D60>
+ <pyglet.shapes.Line object at 0x00000205E6AA70A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A6E200>
+ <pyglet.shapes.Line object at 0x00000205E6AA5D20>
+ <pyglet.shapes.Line object at 0x00000205E6AA7220>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63A3DC0>
+ <pyglet.shapes.Line object at 0x00000205E6AA5E10>
+ <pyglet.shapes.Line object at 0x00000205E6AA7D00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A6CD30>
+ <pyglet.shapes.Line object at 0x00000205E6AA79D0>
+ <pyglet.shapes.Line object at 0x00000205E6AC4D90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E63A3DC0>
+ <pyglet.shapes.Line object at 0x00000205E6AA7AF0>
+ <pyglet.shapes.Line object at 0x00000205E6AA5D20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6AA7C40>
+ <pyglet.shapes.Line object at 0x00000205E6AC5C90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A97430>
+ <pyglet.shapes.Line object at 0x00000205E6AA79A0>
+ <pyglet.shapes.Line object at 0x00000205E6AC6CE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E62F2F80>
+ <pyglet.shapes.Line object at 0x00000205E6AC4D60>
+ <pyglet.shapes.Line object at 0x00000205E6AC7D30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AA4100>
+ <pyglet.shapes.Line object at 0x00000205E6AC4DC0>
+ <pyglet.shapes.Line object at 0x00000205E6AC7E80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AA7070>
+ <pyglet.shapes.Line object at 0x00000205E6AC7D00>
+ <pyglet.shapes.Line object at 0x00000205E6AE0A00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A97190>
+ <pyglet.shapes.Line object at 0x00000205E6AC79D0>
+ <pyglet.shapes.Line object at 0x00000205E6AE1A50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6A97550>
+ <pyglet.shapes.Line object at 0x00000205E6AE1810>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E632D270>
+ <pyglet.shapes.Line object at 0x00000205E6A94850>
+ <pyglet.shapes.Line object at 0x00000205E6AE2950>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AA7AF0>
+ <pyglet.shapes.Line object at 0x00000205E6AE0910>
+ <pyglet.shapes.Line object at 0x00000205E6AE39A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A96A70>
+ <pyglet.shapes.Line object at 0x00000205E6AE20B0>
+ <pyglet.shapes.Line object at 0x00000205E6AF4A30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AA7550>
+ <pyglet.shapes.Line object at 0x00000205E6AE1840>
+ <pyglet.shapes.Line object at 0x00000205E6AF4B80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AC7EE0>
+ <pyglet.shapes.Line object at 0x00000205E6AE01F0>
+ <pyglet.shapes.Line object at 0x00000205E6AF5690>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AA4100>
+ <pyglet.shapes.Line object at 0x00000205E6AF47F0>
+ <pyglet.shapes.Line object at 0x00000205E6AF66E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6AC6BF0>
+ <pyglet.shapes.Line object at 0x00000205E6AF4B50>
+ <pyglet.shapes.Line object at 0x00000205E6AF55D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7513D90>
+ <pyglet.shapes.Line object at 0x00000205F755CE20>
+ <pyglet.shapes.Line object at 0x00000205F755D4E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F755FFA0>
+ <pyglet.shapes.Line object at 0x00000205F757CB50>
+ <pyglet.shapes.Line object at 0x00000205F757D210>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F757EC50>
+ <pyglet.shapes.Line object at 0x00000205F757F3A0>
+ <pyglet.shapes.Line object at 0x00000205F757FA60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F757C520>
+ <pyglet.shapes.Line object at 0x00000205F758D630>
+ <pyglet.shapes.Line object at 0x00000205F758D7E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F758DF60>
+ <pyglet.shapes.Line object at 0x00000205F758EF80>
+ <pyglet.shapes.Line object at 0x00000205F758F280>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F758FB80>
+ <pyglet.shapes.Line object at 0x00000205F75A0BE0>
+ <pyglet.shapes.Line object at 0x00000205F75A0EE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75A17B0>
+ <pyglet.shapes.Line object at 0x00000205F75A27D0>
+ <pyglet.shapes.Line object at 0x00000205F75A2AD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75A33A0>
+ <pyglet.shapes.Line object at 0x00000205F75BC400>
+ <pyglet.shapes.Line object at 0x00000205F75BC700>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BCFD0>
+ <pyglet.shapes.Line object at 0x00000205F75BDFF0>
+ <pyglet.shapes.Line object at 0x00000205F75A2500>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F757D150>
+ <pyglet.shapes.Line object at 0x00000205F757C550>
+ <pyglet.shapes.Line object at 0x00000205F755FCD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F755FFA0>
+ <pyglet.shapes.Line object at 0x00000205F755C6A0>
+ <pyglet.shapes.Line object at 0x00000205F75BD450>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F755D090>
+ <pyglet.shapes.Line object at 0x00000205F75BCD90>
+ <pyglet.shapes.Line object at 0x00000205F75BC7F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F755E6E0>
+ <pyglet.shapes.Line object at 0x00000205F75BE770>
+ <pyglet.shapes.Line object at 0x00000205F75BEB90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BE140>
+ <pyglet.shapes.Line object at 0x00000205F75BF6A0>
+ <pyglet.shapes.Line object at 0x00000205F75BFD60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BDF00>
+ <pyglet.shapes.Line object at 0x00000205F75D9540>
+ <pyglet.shapes.Line object at 0x00000205F75D98A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75DA380>
+ <pyglet.shapes.Line object at 0x00000205F75DB3A0>
+ <pyglet.shapes.Line object at 0x00000205F75DB5E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75DBF70>
+ <pyglet.shapes.Line object at 0x00000205F75E8FD0>
+ <pyglet.shapes.Line object at 0x00000205F75E9240>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E9BA0>
+ <pyglet.shapes.Line object at 0x00000205F75EABC0>
+ <pyglet.shapes.Line object at 0x00000205F75EAE30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75EB790>
+ <pyglet.shapes.Line object at 0x00000205F7E007F0>
+ <pyglet.shapes.Line object at 0x00000205F7E00A60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E013C0>
+ <pyglet.shapes.Line object at 0x00000205F7E023E0>
+ <pyglet.shapes.Line object at 0x00000205F7E02650>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E02FB0>
+ <pyglet.shapes.Line object at 0x00000205F7E03FD0>
+ <pyglet.shapes.Line object at 0x00000205F75EB040>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E8910>
+ <pyglet.shapes.Line object at 0x00000205F75D9390>
+ <pyglet.shapes.Line object at 0x00000205F75BF2B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E8A30>
+ <pyglet.shapes.Line object at 0x00000205F75BE980>
+ <pyglet.shapes.Line object at 0x00000205F75BDFF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75EB310>
+ <pyglet.shapes.Line object at 0x00000205F755F1C0>
+ <pyglet.shapes.Line object at 0x00000205F755F910>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75EAC50>
+ <pyglet.shapes.Line object at 0x00000205F757DD80>
+ <pyglet.shapes.Line object at 0x00000205F758E740>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75EA500>
+ <pyglet.shapes.Line object at 0x00000205F758DED0>
+ <pyglet.shapes.Line object at 0x00000205F75A2950>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E89D0>
+ <pyglet.shapes.Line object at 0x00000205F7E0C460>
+ <pyglet.shapes.Line object at 0x00000205F7E0C880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E9ED0>
+ <pyglet.shapes.Line object at 0x00000205F7E0D030>
+ <pyglet.shapes.Line object at 0x00000205F7E0D450>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0C8B0>
+ <pyglet.shapes.Line object at 0x00000205F7E0DDE0>
+ <pyglet.shapes.Line object at 0x00000205F7E0E4A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0EC20>
+ <pyglet.shapes.Line object at 0x00000205F7E0FC40>
+ <pyglet.shapes.Line object at 0x00000205F7E0FF70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0D060>
+ <pyglet.shapes.Line object at 0x00000205F7E2DAE0>
+ <pyglet.shapes.Line object at 0x00000205F7E2DD50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E2E6B0>
+ <pyglet.shapes.Line object at 0x00000205F7E2F6D0>
+ <pyglet.shapes.Line object at 0x00000205F7E2F940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E2FDF0>
+ <pyglet.shapes.Line object at 0x00000205F7E41300>
+ <pyglet.shapes.Line object at 0x00000205F7E2CB50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0E0B0>
+ <pyglet.shapes.Line object at 0x00000205F75A2CE0>
+ <pyglet.shapes.Line object at 0x00000205F758C580>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F757C520>
+ <pyglet.shapes.Line object at 0x00000205F75BDDE0>
+ <pyglet.shapes.Line object at 0x00000205F75BD8A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205E6A96F20>
+ <pyglet.shapes.Line object at 0x00000205F75D8B20>
+ <pyglet.shapes.Line object at 0x00000205F75EB160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F758FFD0>
+ <pyglet.shapes.Line object at 0x00000205F75EBB50>
+ <pyglet.shapes.Line object at 0x00000205F7E00EB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0CC10>
+ <pyglet.shapes.Line object at 0x00000205F7E00F40>
+ <pyglet.shapes.Line object at 0x00000205F7E40640>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0CFD0>
+ <pyglet.shapes.Line object at 0x00000205F7E41510>
+ <pyglet.shapes.Line object at 0x00000205F7E41930>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0D870>
+ <pyglet.shapes.Line object at 0x00000205F7E420E0>
+ <pyglet.shapes.Line object at 0x00000205F7E42500>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E40FA0>
+ <pyglet.shapes.Line object at 0x00000205F7E42CB0>
+ <pyglet.shapes.Line object at 0x00000205F7E430D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E437C0>
+ <pyglet.shapes.Line object at 0x00000205F7E5C820>
+ <pyglet.shapes.Line object at 0x00000205F7E5CB50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E5DBD0>
+ <pyglet.shapes.Line object at 0x00000205F7E5E3E0>
+ <pyglet.shapes.Line object at 0x00000205F7E5EAA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E5FC40>
+ <pyglet.shapes.Line object at 0x00000205F7E783D0>
+ <pyglet.shapes.Line object at 0x00000205F7E788B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E794B0>
+ <pyglet.shapes.Line object at 0x00000205F7E7A4D0>
+ <pyglet.shapes.Line object at 0x00000205F7E5CF10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E41B40>
+ <pyglet.shapes.Line object at 0x00000205F75E9000>
+ <pyglet.shapes.Line object at 0x00000205F75E96F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E41210>
+ <pyglet.shapes.Line object at 0x00000205F7E0F460>
+ <pyglet.shapes.Line object at 0x00000205F7E0C430>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E5EB00>
+ <pyglet.shapes.Line object at 0x00000205F7E2CFA0>
+ <pyglet.shapes.Line object at 0x00000205F7E2DAB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0D4B0>
+ <pyglet.shapes.Line object at 0x00000205F7E786D0>
+ <pyglet.shapes.Line object at 0x00000205F7E794B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0FA00>
+ <pyglet.shapes.Line object at 0x00000205F7E78160>
+ <pyglet.shapes.Line object at 0x00000205F7E7A950>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E79090>
+ <pyglet.shapes.Line object at 0x00000205F7E7AF80>
+ <pyglet.shapes.Line object at 0x00000205F7E7B3A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E78D60>
+ <pyglet.shapes.Line object at 0x00000205F7E7BB50>
+ <pyglet.shapes.Line object at 0x00000205F7E7BF70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E7A6E0>
+ <pyglet.shapes.Line object at 0x00000205F7EA0760>
+ <pyglet.shapes.Line object at 0x00000205F7EA0B80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E79090>
+ <pyglet.shapes.Line object at 0x00000205F7EA19F0>
+ <pyglet.shapes.Line object at 0x00000205F75A2F80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA2830>
+ <pyglet.shapes.Line object at 0x00000205F7EA3850>
+ <pyglet.shapes.Line object at 0x00000205F7EA3AC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA07C0>
+ <pyglet.shapes.Line object at 0x00000205F7EBD480>
+ <pyglet.shapes.Line object at 0x00000205F7EBD720>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA1210>
+ <pyglet.shapes.Line object at 0x00000205F7E78640>
+ <pyglet.shapes.Line object at 0x00000205F7E783D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E784C0>
+ <pyglet.shapes.Line object at 0x00000205F7E7AD70>
+ <pyglet.shapes.Line object at 0x00000205F7E784F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E7BA30>
+ <pyglet.shapes.Line object at 0x00000205F7E0D9F0>
+ <pyglet.shapes.Line object at 0x00000205F7E7BF70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E78F10>
+ <pyglet.shapes.Line object at 0x00000205F7EA1A20>
+ <pyglet.shapes.Line object at 0x00000205F7E0EE90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E797E0>
+ <pyglet.shapes.Line object at 0x00000205F7E023B0>
+ <pyglet.shapes.Line object at 0x00000205F7E41840>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA3CD0>
+ <pyglet.shapes.Line object at 0x00000205F7E78490>
+ <pyglet.shapes.Line object at 0x00000205F7E433D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA0460>
+ <pyglet.shapes.Line object at 0x00000205F7EBD390>
+ <pyglet.shapes.Line object at 0x00000205F7EBDCC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E43400>
+ <pyglet.shapes.Line object at 0x00000205F7EBD4E0>
+ <pyglet.shapes.Line object at 0x00000205F7EBE8C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBD420>
+ <pyglet.shapes.Line object at 0x00000205F7EBE7D0>
+ <pyglet.shapes.Line object at 0x00000205F7EBEBC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E783D0>
+ <pyglet.shapes.Line object at 0x00000205F7EBD750>
+ <pyglet.shapes.Line object at 0x00000205F7EBEDA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBD510>
+ <pyglet.shapes.Line object at 0x00000205F7EBF880>
+ <pyglet.shapes.Line object at 0x00000205F7EBFCA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBEEF0>
+ <pyglet.shapes.Line object at 0x00000205F7EBE2F0>
+ <pyglet.shapes.Line object at 0x00000205F7EBFE80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBF160>
+ <pyglet.shapes.Line object at 0x00000205F7ED49A0>
+ <pyglet.shapes.Line object at 0x00000205F7ED4DC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED5360>
+ <pyglet.shapes.Line object at 0x00000205F7ED6260>
+ <pyglet.shapes.Line object at 0x00000205F7ED6680>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED7F40>
+ <pyglet.shapes.Line object at 0x00000205F7EBEE90>
+ <pyglet.shapes.Line object at 0x00000205F7EE9180>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE9B40>
+ <pyglet.shapes.Line object at 0x00000205F7EEAB60>
+ <pyglet.shapes.Line object at 0x00000205F7EEAD10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EEB4C0>
+ <pyglet.shapes.Line object at 0x00000205F7F04520>
+ <pyglet.shapes.Line object at 0x00000205F7F04790>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F050F0>
+ <pyglet.shapes.Line object at 0x00000205F7F06110>
+ <pyglet.shapes.Line object at 0x00000205F7F06380>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F06CE0>
+ <pyglet.shapes.Line object at 0x00000205F7F07D00>
+ <pyglet.shapes.Line object at 0x00000205F7EEB880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBC6D0>
+ <pyglet.shapes.Line object at 0x00000205F7EBEF20>
+ <pyglet.shapes.Line object at 0x00000205F7EBF3A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0ED70>
+ <pyglet.shapes.Line object at 0x00000205F7EA37F0>
+ <pyglet.shapes.Line object at 0x00000205F7EA04C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED54B0>
+ <pyglet.shapes.Line object at 0x00000205F7E79060>
+ <pyglet.shapes.Line object at 0x00000205F7F06E30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E40CD0>
+ <pyglet.shapes.Line object at 0x00000205F7F06770>
+ <pyglet.shapes.Line object at 0x00000205F7F06DD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E41ED0>
+ <pyglet.shapes.Line object at 0x00000205F7F05CF0>
+ <pyglet.shapes.Line object at 0x00000205F7F04310>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F079A0>
+ <pyglet.shapes.Line object at 0x00000205F7F20190>
+ <pyglet.shapes.Line object at 0x00000205F7F205B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F06DA0>
+ <pyglet.shapes.Line object at 0x00000205F7F20D60>
+ <pyglet.shapes.Line object at 0x00000205F7F21180>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F21150>
+ <pyglet.shapes.Line object at 0x00000205F7F21B40>
+ <pyglet.shapes.Line object at 0x00000205F7F22200>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F22980>
+ <pyglet.shapes.Line object at 0x00000205F7F239A0>
+ <pyglet.shapes.Line object at 0x00000205F7F23CD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F20E80>
+ <pyglet.shapes.Line object at 0x00000205F7F39840>
+ <pyglet.shapes.Line object at 0x00000205F7F39AB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F3A410>
+ <pyglet.shapes.Line object at 0x00000205F7F3B430>
+ <pyglet.shapes.Line object at 0x00000205F7F3B6A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F3BDC0>
+ <pyglet.shapes.Line object at 0x00000205F7F4D060>
+ <pyglet.shapes.Line object at 0x00000205F7F392A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F21990>
+ <pyglet.shapes.Line object at 0x00000205F7F04E80>
+ <pyglet.shapes.Line object at 0x00000205F7F06A70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F221A0>
+ <pyglet.shapes.Line object at 0x00000205F7E014B0>
+ <pyglet.shapes.Line object at 0x00000205F7E03B50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E01D20>
+ <pyglet.shapes.Line object at 0x00000205F75A0670>
+ <pyglet.shapes.Line object at 0x00000205F75A24D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75A1690>
+ <pyglet.shapes.Line object at 0x00000205F757FE20>
+ <pyglet.shapes.Line object at 0x00000205F758ED10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75A1E10>
+ <pyglet.shapes.Line object at 0x00000205E6A56FB0>
+ <pyglet.shapes.Line object at 0x00000205E6A57B50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75A0FA0>
+ <pyglet.shapes.Line object at 0x00000205F7F04400>
+ <pyglet.shapes.Line object at 0x00000205F7F07430>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F06890>
+ <pyglet.shapes.Line object at 0x00000205F7E79840>
+ <pyglet.shapes.Line object at 0x00000205F7F05270>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E7BF10>
+ <pyglet.shapes.Line object at 0x00000205F7E2F460>
+ <pyglet.shapes.Line object at 0x00000205F7E2DFC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E5C340>
+ <pyglet.shapes.Line object at 0x00000205F7E5F0D0>
+ <pyglet.shapes.Line object at 0x00000205F7E5DD80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E5E530>
+ <pyglet.shapes.Line object at 0x00000205F7EA2EF0>
+ <pyglet.shapes.Line object at 0x00000205F7E5E500>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EA0D90>
+ <pyglet.shapes.Line object at 0x00000205F7E429E0>
+ <pyglet.shapes.Line object at 0x00000205F7E43190>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0DED0>
+ <pyglet.shapes.Line object at 0x00000205F7E0E8F0>
+ <pyglet.shapes.Line object at 0x00000205F755EE00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0CDF0>
+ <pyglet.shapes.Line object at 0x00000205F7EBCBE0>
+ <pyglet.shapes.Line object at 0x00000205F7E41360>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E79390>
+ <pyglet.shapes.Line object at 0x00000205E6A57220>
+ <pyglet.shapes.Line object at 0x00000205F758DD20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0E140>
+ <pyglet.shapes.Line object at 0x00000205F7E03EB0>
+ <pyglet.shapes.Line object at 0x00000205F7F20820>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BC370>
+ <pyglet.shapes.Line object at 0x00000205F7F3BBB0>
+ <pyglet.shapes.Line object at 0x00000205E627F9A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E7A2F0>
+ <pyglet.shapes.Line object at 0x00000205F7F07DF0>
+ <pyglet.shapes.Line object at 0x00000205F7F076D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F057B0>
+ <pyglet.shapes.Line object at 0x00000205F7EBD750>
+ <pyglet.shapes.Line object at 0x00000205F7EBD4B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E793C0>
+ <pyglet.shapes.Line object at 0x00000205F7EBDC00>
+ <pyglet.shapes.Line object at 0x00000205F7EBE8F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F38490>
+ <pyglet.shapes.Line object at 0x00000205F7ED67A0>
+ <pyglet.shapes.Line object at 0x00000205F7ED4910>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED6B90>
+ <pyglet.shapes.Line object at 0x00000205F7ED7220>
+ <pyglet.shapes.Line object at 0x00000205F7ED7160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED6F50>
+ <pyglet.shapes.Line object at 0x00000205F7EE9090>
+ <pyglet.shapes.Line object at 0x00000205F7EEB700>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EEB5E0>
+ <pyglet.shapes.Line object at 0x00000205F7F4DBA0>
+ <pyglet.shapes.Line object at 0x00000205F7F4DE10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4ECE0>
+ <pyglet.shapes.Line object at 0x00000205F7F4F520>
+ <pyglet.shapes.Line object at 0x00000205F7F4FBE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE8E50>
+ <pyglet.shapes.Line object at 0x00000205F7EE8B80>
+ <pyglet.shapes.Line object at 0x00000205F7ED42E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBECE0>
+ <pyglet.shapes.Line object at 0x00000205F7F3A380>
+ <pyglet.shapes.Line object at 0x00000205F7F22C20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED7760>
+ <pyglet.shapes.Line object at 0x00000205F7E02410>
+ <pyglet.shapes.Line object at 0x00000205F757D060>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4E410>
+ <pyglet.shapes.Line object at 0x00000205F7E0EF50>
+ <pyglet.shapes.Line object at 0x00000205F7EA1780>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4F430>
+ <pyglet.shapes.Line object at 0x00000205F7E411E0>
+ <pyglet.shapes.Line object at 0x00000205F75BD360>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4FC40>
+ <pyglet.shapes.Line object at 0x00000205F7F889D0>
+ <pyglet.shapes.Line object at 0x00000205F7F89390>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4D030>
+ <pyglet.shapes.Line object at 0x00000205F7F89B40>
+ <pyglet.shapes.Line object at 0x00000205F7F89F60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F89570>
+ <pyglet.shapes.Line object at 0x00000205F7F8A710>
+ <pyglet.shapes.Line object at 0x00000205F7F8AB30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F880A0>
+ <pyglet.shapes.Line object at 0x00000205F7F8B790>
+ <pyglet.shapes.Line object at 0x00000205F7F8BE50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F89B70>
+ <pyglet.shapes.Line object at 0x00000205F7FAD630>
+ <pyglet.shapes.Line object at 0x00000205F7FAD960>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FAE470>
+ <pyglet.shapes.Line object at 0x00000205F7FAF490>
+ <pyglet.shapes.Line object at 0x00000205F7FAF700>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FAFE20>
+ <pyglet.shapes.Line object at 0x00000205F7FB90C0>
+ <pyglet.shapes.Line object at 0x00000205F7FB9330>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FB9C90>
+ <pyglet.shapes.Line object at 0x00000205F7FBACB0>
+ <pyglet.shapes.Line object at 0x00000205F7FAECB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F23370>
+ <pyglet.shapes.Line object at 0x00000205F7EBF1C0>
+ <pyglet.shapes.Line object at 0x00000205F7EE8940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED6A10>
+ <pyglet.shapes.Line object at 0x00000205F7F89720>
+ <pyglet.shapes.Line object at 0x00000205F7F8BDF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F20D30>
+ <pyglet.shapes.Line object at 0x00000205F7F8B940>
+ <pyglet.shapes.Line object at 0x00000205F7F8AD40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F8BB80>
+ <pyglet.shapes.Line object at 0x00000205F7F88970>
+ <pyglet.shapes.Line object at 0x00000205F7FBA800>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F8B070>
+ <pyglet.shapes.Line object at 0x00000205F7FB9840>
+ <pyglet.shapes.Line object at 0x00000205F7FB9390>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F89450>
+ <pyglet.shapes.Line object at 0x00000205F7FB9B40>
+ <pyglet.shapes.Line object at 0x00000205F7FBB160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FBAD10>
+ <pyglet.shapes.Line object at 0x00000205F7FBB910>
+ <pyglet.shapes.Line object at 0x00000205F7FBBD30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FBA350>
+ <pyglet.shapes.Line object at 0x00000205F7FD4520>
+ <pyglet.shapes.Line object at 0x00000205F7FD4940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FD4D90>
+ <pyglet.shapes.Line object at 0x00000205F7FD5D20>
+ <pyglet.shapes.Line object at 0x00000205F7FD6170>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FD6B60>
+ <pyglet.shapes.Line object at 0x00000205F7FD7B80>
+ <pyglet.shapes.Line object at 0x00000205F7FD7DF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FD4550>
+ <pyglet.shapes.Line object at 0x00000205F7FE57E0>
+ <pyglet.shapes.Line object at 0x00000205F7FE5A50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE63B0>
+ <pyglet.shapes.Line object at 0x00000205F7FE73D0>
+ <pyglet.shapes.Line object at 0x00000205F7FD7160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FB9C60>
+ <pyglet.shapes.Line object at 0x00000205F7F8B370>
+ <pyglet.shapes.Line object at 0x00000205F7F89720>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7ED5FF0>
+ <pyglet.shapes.Line object at 0x00000205F7EEAF80>
+ <pyglet.shapes.Line object at 0x00000205F7EBF220>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F88D60>
+ <pyglet.shapes.Line object at 0x00000205F7E79870>
+ <pyglet.shapes.Line object at 0x00000205F7FAF070>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75EAF80>
+ <pyglet.shapes.Line object at 0x00000205F7FE6F20>
+ <pyglet.shapes.Line object at 0x00000205F7FE55A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE8A60>
+ <pyglet.shapes.Line object at 0x00000205F7FE7070>
+ <pyglet.shapes.Line object at 0x00000205F7FE4940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE6950>
+ <pyglet.shapes.Line object at 0x00000205F7FE75E0>
+ <pyglet.shapes.Line object at 0x00000205F7FE7A00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE5FF0>
+ <pyglet.shapes.Line object at 0x00000205FF6081F0>
+ <pyglet.shapes.Line object at 0x00000205FF608610>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE5510>
+ <pyglet.shapes.Line object at 0x00000205FF608DC0>
+ <pyglet.shapes.Line object at 0x00000205FF6091E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6098D0>
+ <pyglet.shapes.Line object at 0x00000205FF60A8F0>
+ <pyglet.shapes.Line object at 0x00000205FF60ACB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF60B730>
+ <pyglet.shapes.Line object at 0x00000205FF618790>
+ <pyglet.shapes.Line object at 0x00000205FF618A00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF619360>
+ <pyglet.shapes.Line object at 0x00000205FF61A380>
+ <pyglet.shapes.Line object at 0x00000205FF61A620>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF61AF80>
+ <pyglet.shapes.Line object at 0x00000205FF61BFA0>
+ <pyglet.shapes.Line object at 0x00000205F75EAF80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF608130>
+ <pyglet.shapes.Line object at 0x00000205F7FE7C40>
+ <pyglet.shapes.Line object at 0x00000205F7FE76D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE7520>
+ <pyglet.shapes.Line object at 0x00000205F7FAC5E0>
+ <pyglet.shapes.Line object at 0x00000205F755D7E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE5300>
+ <pyglet.shapes.Line object at 0x00000205F7F4DC00>
+ <pyglet.shapes.Line object at 0x00000205F7F88D60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE5720>
+ <pyglet.shapes.Line object at 0x00000205F7FBB400>
+ <pyglet.shapes.Line object at 0x00000205F7FBAE30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE6620>
+ <pyglet.shapes.Line object at 0x00000205F7FBBF40>
+ <pyglet.shapes.Line object at 0x00000205F7FD7FA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE7C10>
+ <pyglet.shapes.Line object at 0x00000205FF62C1F0>
+ <pyglet.shapes.Line object at 0x00000205FF62C610>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE4C10>
+ <pyglet.shapes.Line object at 0x00000205FF62CDC0>
+ <pyglet.shapes.Line object at 0x00000205FF62D1E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62CD60>
+ <pyglet.shapes.Line object at 0x00000205FF62D990>
+ <pyglet.shapes.Line object at 0x00000205FF62DDB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62E4A0>
+ <pyglet.shapes.Line object at 0x00000205FF62F4C0>
+ <pyglet.shapes.Line object at 0x00000205FF62F880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62FF10>
+ <pyglet.shapes.Line object at 0x00000205FF64D360>
+ <pyglet.shapes.Line object at 0x00000205FF64D5D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64DF30>
+ <pyglet.shapes.Line object at 0x00000205FF64EF50>
+ <pyglet.shapes.Line object at 0x00000205FF64F1C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64FB20>
+ <pyglet.shapes.Line object at 0x00000205FF664B80>
+ <pyglet.shapes.Line object at 0x00000205FF64CB80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62DA20>
+ <pyglet.shapes.Line object at 0x00000205F7FD5660>
+ <pyglet.shapes.Line object at 0x00000205F7FB8400>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FBB010>
+ <pyglet.shapes.Line object at 0x00000205F7FAC8B0>
+ <pyglet.shapes.Line object at 0x00000205F7FE6620>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64EDA0>
+ <pyglet.shapes.Line object at 0x00000205F7FE4F70>
+ <pyglet.shapes.Line object at 0x00000205F7FE7550>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64C8E0>
+ <pyglet.shapes.Line object at 0x00000205FF608FD0>
+ <pyglet.shapes.Line object at 0x00000205FF608580>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64C370>
+ <pyglet.shapes.Line object at 0x00000205FF61BC40>
+ <pyglet.shapes.Line object at 0x00000205FF6182B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64F3A0>
+ <pyglet.shapes.Line object at 0x00000205FF664D90>
+ <pyglet.shapes.Line object at 0x00000205FF6651B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64FCA0>
+ <pyglet.shapes.Line object at 0x00000205FF665960>
+ <pyglet.shapes.Line object at 0x00000205FF665D80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6652D0>
+ <pyglet.shapes.Line object at 0x00000205FF666530>
+ <pyglet.shapes.Line object at 0x00000205FF666950>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF667040>
+ <pyglet.shapes.Line object at 0x00000205FF67C0A0>
+ <pyglet.shapes.Line object at 0x00000205FF67C460>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF67CEE0>
+ <pyglet.shapes.Line object at 0x00000205FF67DF00>
+ <pyglet.shapes.Line object at 0x00000205FF67E170>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF67EAD0>
+ <pyglet.shapes.Line object at 0x00000205FF67FAF0>
+ <pyglet.shapes.Line object at 0x00000205FF67FD60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF67C400>
+ <pyglet.shapes.Line object at 0x00000205FF691720>
+ <pyglet.shapes.Line object at 0x00000205FF67CA60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF665C90>
+ <pyglet.shapes.Line object at 0x00000205FF61B1F0>
+ <pyglet.shapes.Line object at 0x00000205FF608D90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BD6F0>
+ <pyglet.shapes.Line object at 0x00000205F7FB9CF0>
+ <pyglet.shapes.Line object at 0x00000205F7FD60B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF665D80>
+ <pyglet.shapes.Line object at 0x00000205FF62DFF0>
+ <pyglet.shapes.Line object at 0x00000205FF62CC10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6660E0>
+ <pyglet.shapes.Line object at 0x00000205FF64D090>
+ <pyglet.shapes.Line object at 0x00000205FF64FE50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6659C0>
+ <pyglet.shapes.Line object at 0x00000205FF6906A0>
+ <pyglet.shapes.Line object at 0x00000205FF691120>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6672E0>
+ <pyglet.shapes.Line object at 0x00000205FF691930>
+ <pyglet.shapes.Line object at 0x00000205FF691D50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF691CF0>
+ <pyglet.shapes.Line object at 0x00000205FF692500>
+ <pyglet.shapes.Line object at 0x00000205FF692920>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF690100>
+ <pyglet.shapes.Line object at 0x00000205FF693100>
+ <pyglet.shapes.Line object at 0x00000205FF693520>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF693C10>
+ <pyglet.shapes.Line object at 0x00000205FF6B0C70>
+ <pyglet.shapes.Line object at 0x00000205FF6B1030>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B1AB0>
+ <pyglet.shapes.Line object at 0x00000205FF6B2AD0>
+ <pyglet.shapes.Line object at 0x00000205FF6B2D40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B36A0>
+ <pyglet.shapes.Line object at 0x00000205FF6C0700>
+ <pyglet.shapes.Line object at 0x00000205FF6C0970>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C12D0>
+ <pyglet.shapes.Line object at 0x00000205FF6C22F0>
+ <pyglet.shapes.Line object at 0x00000205FF6B2410>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF691BD0>
+ <pyglet.shapes.Line object at 0x00000205FF64D7B0>
+ <pyglet.shapes.Line object at 0x00000205FF62D780>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62F1F0>
+ <pyglet.shapes.Line object at 0x00000205FF61AF50>
+ <pyglet.shapes.Line object at 0x00000205FF6666E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B24D0>
+ <pyglet.shapes.Line object at 0x00000205FF665C60>
+ <pyglet.shapes.Line object at 0x00000205FF6650C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B11E0>
+ <pyglet.shapes.Line object at 0x00000205FF67C6A0>
+ <pyglet.shapes.Line object at 0x00000205FF67FBE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF692E30>
+ <pyglet.shapes.Line object at 0x00000205FF6C0D90>
+ <pyglet.shapes.Line object at 0x00000205FF6C12A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F89060>
+ <pyglet.shapes.Line object at 0x00000205FF6C2500>
+ <pyglet.shapes.Line object at 0x00000205FF6C2920>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C0970>
+ <pyglet.shapes.Line object at 0x00000205FF6C30D0>
+ <pyglet.shapes.Line object at 0x00000205FF6C34F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C0730>
+ <pyglet.shapes.Line object at 0x00000205FF6C3CA0>
+ <pyglet.shapes.Line object at 0x00000205FF6E4100>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C2560>
+ <pyglet.shapes.Line object at 0x00000205FF6E5810>
+ <pyglet.shapes.Line object at 0x00000205FF6E5BD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6E6650>
+ <pyglet.shapes.Line object at 0x00000205FF6E7670>
+ <pyglet.shapes.Line object at 0x00000205FF6E78E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6E7FD0>
+ <pyglet.shapes.Line object at 0x00000205FF6F52A0>
+ <pyglet.shapes.Line object at 0x00000205FF6F5510>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F5E70>
+ <pyglet.shapes.Line object at 0x00000205FF6F6E90>
+ <pyglet.shapes.Line object at 0x00000205FF6E6D70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C1E10>
+ <pyglet.shapes.Line object at 0x00000205FF67FD60>
+ <pyglet.shapes.Line object at 0x00000205FF665930>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE4400>
+ <pyglet.shapes.Line object at 0x00000205FF62CAC0>
+ <pyglet.shapes.Line object at 0x00000205FF692170>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C38E0>
+ <pyglet.shapes.Line object at 0x00000205FF693340>
+ <pyglet.shapes.Line object at 0x00000205FF692320>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C27A0>
+ <pyglet.shapes.Line object at 0x00000205FF6B32B0>
+ <pyglet.shapes.Line object at 0x00000205FF6F6500>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6C3A00>
+ <pyglet.shapes.Line object at 0x00000205FF6F6B60>
+ <pyglet.shapes.Line object at 0x00000205FF6F56C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F5630>
+ <pyglet.shapes.Line object at 0x00000205FF6F70D0>
+ <pyglet.shapes.Line object at 0x00000205FF6F74F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F5A20>
+ <pyglet.shapes.Line object at 0x00000205FF6F7CA0>
+ <pyglet.shapes.Line object at 0x00000205FF70C100>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F4820>
+ <pyglet.shapes.Line object at 0x00000205FF70C8B0>
+ <pyglet.shapes.Line object at 0x00000205FF70CCD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF70D3C0>
+ <pyglet.shapes.Line object at 0x00000205FF70E3E0>
+ <pyglet.shapes.Line object at 0x00000205FF70E7A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF70F250>
+ <pyglet.shapes.Line object at 0x00000205FF7282B0>
+ <pyglet.shapes.Line object at 0x00000205FF728520>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF728E80>
+ <pyglet.shapes.Line object at 0x00000205FF729EA0>
+ <pyglet.shapes.Line object at 0x00000205FF72A110>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72AA70>
+ <pyglet.shapes.Line object at 0x00000205FF72BA90>
+ <pyglet.shapes.Line object at 0x00000205FF70F4F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F69B0>
+ <pyglet.shapes.Line object at 0x00000205FF690340>
+ <pyglet.shapes.Line object at 0x00000205FF64C370>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF666710>
+ <pyglet.shapes.Line object at 0x00000205FF6C3370>
+ <pyglet.shapes.Line object at 0x00000205FF6C32E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B3250>
+ <pyglet.shapes.Line object at 0x00000205FF6E5E70>
+ <pyglet.shapes.Line object at 0x00000205FF6E49D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F7370>
+ <pyglet.shapes.Line object at 0x00000205FF728880>
+ <pyglet.shapes.Line object at 0x00000205FF72BA90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F56C0>
+ <pyglet.shapes.Line object at 0x00000205FF72A2F0>
+ <pyglet.shapes.Line object at 0x00000205FF7292D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72A830>
+ <pyglet.shapes.Line object at 0x00000205FF72BCA0>
+ <pyglet.shapes.Line object at 0x00000205FF740100>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF729B40>
+ <pyglet.shapes.Line object at 0x00000205FF7408B0>
+ <pyglet.shapes.Line object at 0x00000205FF740CD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF729420>
+ <pyglet.shapes.Line object at 0x00000205FF741480>
+ <pyglet.shapes.Line object at 0x00000205FF7418A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF741F90>
+ <pyglet.shapes.Line object at 0x00000205FF742FB0>
+ <pyglet.shapes.Line object at 0x00000205FF743370>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF743DF0>
+ <pyglet.shapes.Line object at 0x00000205FF754E50>
+ <pyglet.shapes.Line object at 0x00000205FF7550C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF755A20>
+ <pyglet.shapes.Line object at 0x00000205FF756A40>
+ <pyglet.shapes.Line object at 0x00000205FF756CB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF757610>
+ <pyglet.shapes.Line object at 0x00000205FF768670>
+ <pyglet.shapes.Line object at 0x00000205FF754430>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7411E0>
+ <pyglet.shapes.Line object at 0x00000205FF72BD00>
+ <pyglet.shapes.Line object at 0x00000205FF7286A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF743160>
+ <pyglet.shapes.Line object at 0x00000205FF64E9E0>
+ <pyglet.shapes.Line object at 0x00000205FF64EB60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE5270>
+ <pyglet.shapes.Line object at 0x00000205F7FE5240>
+ <pyglet.shapes.Line object at 0x00000205F7FD72E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE4820>
+ <pyglet.shapes.Line object at 0x00000205F7FADB10>
+ <pyglet.shapes.Line object at 0x00000205F7FAE6B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FAF610>
+ <pyglet.shapes.Line object at 0x00000205F7E0E380>
+ <pyglet.shapes.Line object at 0x00000205F75A0FA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FAFE50>
+ <pyglet.shapes.Line object at 0x00000205F7F4FF10>
+ <pyglet.shapes.Line object at 0x00000205F7F4F1C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F4FDF0>
+ <pyglet.shapes.Line object at 0x00000205F7F23760>
+ <pyglet.shapes.Line object at 0x00000205F7F21330>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F238E0>
+ <pyglet.shapes.Line object at 0x00000205F7F39930>
+ <pyglet.shapes.Line object at 0x00000205F7F3A2C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F22230>
+ <pyglet.shapes.Line object at 0x00000205F7EA22C0>
+ <pyglet.shapes.Line object at 0x00000205F7EA0D60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F23760>
+ <pyglet.shapes.Line object at 0x00000205FF72A110>
+ <pyglet.shapes.Line object at 0x00000205FF72BD30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF729EA0>
+ <pyglet.shapes.Line object at 0x00000205FF72B3D0>
+ <pyglet.shapes.Line object at 0x00000205FF7295A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72AC50>
+ <pyglet.shapes.Line object at 0x00000205FF6E7310>
+ <pyglet.shapes.Line object at 0x00000205FF6E69B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6E4BB0>
+ <pyglet.shapes.Line object at 0x00000205FF61BB20>
+ <pyglet.shapes.Line object at 0x00000205F7E5E770>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE9C90>
+ <pyglet.shapes.Line object at 0x00000205F75BC700>
+ <pyglet.shapes.Line object at 0x00000205F7FAED40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FD42E0>
+ <pyglet.shapes.Line object at 0x00000205FF743A30>
+ <pyglet.shapes.Line object at 0x00000205FF740CA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6E7CA0>
+ <pyglet.shapes.Line object at 0x00000205FF755F00>
+ <pyglet.shapes.Line object at 0x00000205FF72B760>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BC700>
+ <pyglet.shapes.Line object at 0x00000205FF7289A0>
+ <pyglet.shapes.Line object at 0x00000205FF729900>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F8ABF0>
+ <pyglet.shapes.Line object at 0x00000205FF619780>
+ <pyglet.shapes.Line object at 0x00000205FF61BD30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE8550>
+ <pyglet.shapes.Line object at 0x00000205FF619840>
+ <pyglet.shapes.Line object at 0x00000205FF664B80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF729FC0>
+ <pyglet.shapes.Line object at 0x00000205FF6668F0>
+ <pyglet.shapes.Line object at 0x00000205FF6C3700>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72AA70>
+ <pyglet.shapes.Line object at 0x00000205FF6C0040>
+ <pyglet.shapes.Line object at 0x00000205FF6C36A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75E9D80>
+ <pyglet.shapes.Line object at 0x00000205FF67E500>
+ <pyglet.shapes.Line object at 0x00000205FF67EFB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF61B580>
+ <pyglet.shapes.Line object at 0x00000205FF62C9A0>
+ <pyglet.shapes.Line object at 0x00000205FF62E830>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62CA00>
+ <pyglet.shapes.Line object at 0x00000205FF6909A0>
+ <pyglet.shapes.Line object at 0x00000205FF693F40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF62D900>
+ <pyglet.shapes.Line object at 0x00000205FF6B0700>
+ <pyglet.shapes.Line object at 0x00000205FF60A1A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7E0C040>
+ <pyglet.shapes.Line object at 0x00000205FF618C10>
+ <pyglet.shapes.Line object at 0x00000205F7FD77C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF666320>
+ <pyglet.shapes.Line object at 0x00000205FF72BB20>
+ <pyglet.shapes.Line object at 0x00000205FF743EB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF690D90>
+ <pyglet.shapes.Line object at 0x00000205F7FE7610>
+ <pyglet.shapes.Line object at 0x00000205F75BD4B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF67FE50>
+ <pyglet.shapes.Line object at 0x00000205F755FC40>
+ <pyglet.shapes.Line object at 0x00000205F7F4ED10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBFE20>
+ <pyglet.shapes.Line object at 0x00000205FF6E4D00>
+ <pyglet.shapes.Line object at 0x00000205F7E5D690>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F75BD870>
+ <pyglet.shapes.Line object at 0x00000205FF6B0AF0>
+ <pyglet.shapes.Line object at 0x00000205FF6B2BC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBFE20>
+ <pyglet.shapes.Line object at 0x00000205FF6B32E0>
+ <pyglet.shapes.Line object at 0x00000205FF6B2620>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B0D60>
+ <pyglet.shapes.Line object at 0x00000205FF6F76A0>
+ <pyglet.shapes.Line object at 0x00000205FF6F5120>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F6380>
+ <pyglet.shapes.Line object at 0x00000205FF6F6A40>
+ <pyglet.shapes.Line object at 0x00000205FF6F7A90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F4700>
+ <pyglet.shapes.Line object at 0x00000205FF70C040>
+ <pyglet.shapes.Line object at 0x00000205FF70ECB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F7AC0>
+ <pyglet.shapes.Line object at 0x00000205FF769810>
+ <pyglet.shapes.Line object at 0x00000205FF769A80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF76A3E0>
+ <pyglet.shapes.Line object at 0x00000205FF76B400>
+ <pyglet.shapes.Line object at 0x00000205FF70ED40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B3670>
+ <pyglet.shapes.Line object at 0x00000205F7FE4CA0>
+ <pyglet.shapes.Line object at 0x00000205FF756E00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7296C0>
+ <pyglet.shapes.Line object at 0x00000205FF61AE00>
+ <pyglet.shapes.Line object at 0x00000205FF62D330>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F4460>
+ <pyglet.shapes.Line object at 0x00000205FF67F1F0>
+ <pyglet.shapes.Line object at 0x00000205FF690E20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7435B0>
+ <pyglet.shapes.Line object at 0x00000205FF76A560>
+ <pyglet.shapes.Line object at 0x00000205FF768760>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EBCF40>
+ <pyglet.shapes.Line object at 0x00000205FF76A410>
+ <pyglet.shapes.Line object at 0x00000205FF768940>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF768310>
+ <pyglet.shapes.Line object at 0x00000205FF76B640>
+ <pyglet.shapes.Line object at 0x00000205FF76BA60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF76A4D0>
+ <pyglet.shapes.Line object at 0x00000205FF7BC250>
+ <pyglet.shapes.Line object at 0x00000205FF7BC670>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF76B520>
+ <pyglet.shapes.Line object at 0x00000205FF7BCE20>
+ <pyglet.shapes.Line object at 0x00000205FF7BD240>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BD930>
+ <pyglet.shapes.Line object at 0x00000205FF7BE980>
+ <pyglet.shapes.Line object at 0x00000205FF7BECB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BF7F0>
+ <pyglet.shapes.Line object at 0x00000205FF7D0850>
+ <pyglet.shapes.Line object at 0x00000205FF7D0AF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D1420>
+ <pyglet.shapes.Line object at 0x00000205FF7D2440>
+ <pyglet.shapes.Line object at 0x00000205FF7D26B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D3010>
+ <pyglet.shapes.Line object at 0x00000205FF7D8070>
+ <pyglet.shapes.Line object at 0x00000205FF7BF8E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BCA90>
+ <pyglet.shapes.Line object at 0x00000205FF768940>
+ <pyglet.shapes.Line object at 0x00000205FF76BE80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF76ACB0>
+ <pyglet.shapes.Line object at 0x00000205F7FBA620>
+ <pyglet.shapes.Line object at 0x00000205FF67F880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF768C40>
+ <pyglet.shapes.Line object at 0x00000205FF61A7A0>
+ <pyglet.shapes.Line object at 0x00000205FF6097B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BD0C0>
+ <pyglet.shapes.Line object at 0x00000205F7F23220>
+ <pyglet.shapes.Line object at 0x00000205FF6B31F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BC340>
+ <pyglet.shapes.Line object at 0x00000205FF6F7B50>
+ <pyglet.shapes.Line object at 0x00000205FF70D480>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BC880>
+ <pyglet.shapes.Line object at 0x00000205FF7D8280>
+ <pyglet.shapes.Line object at 0x00000205FF7D86A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BC940>
+ <pyglet.shapes.Line object at 0x00000205FF7D8E50>
+ <pyglet.shapes.Line object at 0x00000205FF7D9270>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D83D0>
+ <pyglet.shapes.Line object at 0x00000205FF7D9A20>
+ <pyglet.shapes.Line object at 0x00000205FF7D9E40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7DA530>
+ <pyglet.shapes.Line object at 0x00000205FF7DB550>
+ <pyglet.shapes.Line object at 0x00000205FF7DB880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7DBEE0>
+ <pyglet.shapes.Line object at 0x00000205FF7F53F0>
+ <pyglet.shapes.Line object at 0x00000205FF7F5690>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F5FC0>
+ <pyglet.shapes.Line object at 0x00000205FF7F6FE0>
+ <pyglet.shapes.Line object at 0x00000205FF7F7250>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F7BB0>
+ <pyglet.shapes.Line object at 0x0000020600600C10>
+ <pyglet.shapes.Line object at 0x00000205FF7F4C10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D9B10>
+ <pyglet.shapes.Line object at 0x00000205FF7D8070>
+ <pyglet.shapes.Line object at 0x00000205FF6F42E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF61A7A0>
+ <pyglet.shapes.Line object at 0x00000205FF67FE50>
+ <pyglet.shapes.Line object at 0x00000205FF76B7F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F7CA0>
+ <pyglet.shapes.Line object at 0x00000205FF76BAF0>
+ <pyglet.shapes.Line object at 0x00000205FF7BC400>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F5750>
+ <pyglet.shapes.Line object at 0x00000205FF7BE770>
+ <pyglet.shapes.Line object at 0x00000205FF7D2980>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F4FA0>
+ <pyglet.shapes.Line object at 0x00000205FF7D3BE0>
+ <pyglet.shapes.Line object at 0x00000205FF7D0640>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F5C30>
+ <pyglet.shapes.Line object at 0x0000020600600E20>
+ <pyglet.shapes.Line object at 0x0000020600601240>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F7BE0>
+ <pyglet.shapes.Line object at 0x00000206006019F0>
+ <pyglet.shapes.Line object at 0x0000020600601E10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600601390>
+ <pyglet.shapes.Line object at 0x00000206006025C0>
+ <pyglet.shapes.Line object at 0x00000206006029E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006030D0>
+ <pyglet.shapes.Line object at 0x0000020600624130>
+ <pyglet.shapes.Line object at 0x0000020600624460>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600624F70>
+ <pyglet.shapes.Line object at 0x0000020600625F90>
+ <pyglet.shapes.Line object at 0x0000020600626230>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600626B60>
+ <pyglet.shapes.Line object at 0x0000020600627B80>
+ <pyglet.shapes.Line object at 0x0000020600627DF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006240D0>
+ <pyglet.shapes.Line object at 0x00000206006317B0>
+ <pyglet.shapes.Line object at 0x0000020600624CA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600601C90>
+ <pyglet.shapes.Line object at 0x00000205FF7D3E20>
+ <pyglet.shapes.Line object at 0x00000205FF7BD030>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7EE9C90>
+ <pyglet.shapes.Line object at 0x00000205FF6B0190>
+ <pyglet.shapes.Line object at 0x00000205FF6F41C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600626140>
+ <pyglet.shapes.Line object at 0x00000205FF7DAB30>
+ <pyglet.shapes.Line object at 0x00000205FF7DA770>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600625DE0>
+ <pyglet.shapes.Line object at 0x00000205FF7F7550>
+ <pyglet.shapes.Line object at 0x00000205FF7F7070>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600625450>
+ <pyglet.shapes.Line object at 0x0000020600630970>
+ <pyglet.shapes.Line object at 0x00000206006303D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006252A0>
+ <pyglet.shapes.Line object at 0x00000206006319C0>
+ <pyglet.shapes.Line object at 0x0000020600631DE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600631D80>
+ <pyglet.shapes.Line object at 0x0000020600632590>
+ <pyglet.shapes.Line object at 0x00000206006329B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006300A0>
+ <pyglet.shapes.Line object at 0x0000020600633160>
+ <pyglet.shapes.Line object at 0x0000020600633580>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600633C70>
+ <pyglet.shapes.Line object at 0x0000020600654CD0>
+ <pyglet.shapes.Line object at 0x0000020600655000>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600655B10>
+ <pyglet.shapes.Line object at 0x0000020600656B30>
+ <pyglet.shapes.Line object at 0x0000020600656DD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600657700>
+ <pyglet.shapes.Line object at 0x0000020600660760>
+ <pyglet.shapes.Line object at 0x00000206006609D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600661330>
+ <pyglet.shapes.Line object at 0x0000020600662350>
+ <pyglet.shapes.Line object at 0x0000020600656350>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600630310>
+ <pyglet.shapes.Line object at 0x00000205FF67DDE0>
+ <pyglet.shapes.Line object at 0x00000205FF7DA4D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6F52D0>
+ <pyglet.shapes.Line object at 0x00000205FF7D2C80>
+ <pyglet.shapes.Line object at 0x0000020600600EB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600654610>
+ <pyglet.shapes.Line object at 0x00000206006020E0>
+ <pyglet.shapes.Line object at 0x0000020600602B90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600656E00>
+ <pyglet.shapes.Line object at 0x0000020600625330>
+ <pyglet.shapes.Line object at 0x0000020600626AD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D2380>
+ <pyglet.shapes.Line object at 0x0000020600660370>
+ <pyglet.shapes.Line object at 0x0000020600662110>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D2B60>
+ <pyglet.shapes.Line object at 0x0000020600662560>
+ <pyglet.shapes.Line object at 0x0000020600662980>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600660820>
+ <pyglet.shapes.Line object at 0x0000020600663130>
+ <pyglet.shapes.Line object at 0x0000020600663550>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006615A0>
+ <pyglet.shapes.Line object at 0x0000020600663D00>
+ <pyglet.shapes.Line object at 0x0000020600684160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600662A40>
+ <pyglet.shapes.Line object at 0x0000020600685870>
+ <pyglet.shapes.Line object at 0x0000020600685BA0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006866B0>
+ <pyglet.shapes.Line object at 0x00000206006876D0>
+ <pyglet.shapes.Line object at 0x0000020600687970>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600687DF0>
+ <pyglet.shapes.Line object at 0x000002060069D300>
+ <pyglet.shapes.Line object at 0x000002060069D570>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069DED0>
+ <pyglet.shapes.Line object at 0x000002060069EEF0>
+ <pyglet.shapes.Line object at 0x0000020600686DD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006609D0>
+ <pyglet.shapes.Line object at 0x0000020600625960>
+ <pyglet.shapes.Line object at 0x0000020600600190>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BC400>
+ <pyglet.shapes.Line object at 0x00000206006302E0>
+ <pyglet.shapes.Line object at 0x0000020600632F80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BC400>
+ <pyglet.shapes.Line object at 0x0000020600631300>
+ <pyglet.shapes.Line object at 0x0000020600656B30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600687C10>
+ <pyglet.shapes.Line object at 0x00000206006552A0>
+ <pyglet.shapes.Line object at 0x000002060069E6B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600685D20>
+ <pyglet.shapes.Line object at 0x000002060069DEA0>
+ <pyglet.shapes.Line object at 0x000002060069D7E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069D750>
+ <pyglet.shapes.Line object at 0x000002060069F130>
+ <pyglet.shapes.Line object at 0x000002060069F550>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069DF30>
+ <pyglet.shapes.Line object at 0x000002060069FD00>
+ <pyglet.shapes.Line object at 0x00000206006B8160>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069CBB0>
+ <pyglet.shapes.Line object at 0x00000206006B8910>
+ <pyglet.shapes.Line object at 0x00000206006B8D30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006B9420>
+ <pyglet.shapes.Line object at 0x00000206006BA440>
+ <pyglet.shapes.Line object at 0x00000206006BA770>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006BB280>
+ <pyglet.shapes.Line object at 0x00000206006C82E0>
+ <pyglet.shapes.Line object at 0x00000206006C8580>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C8EB0>
+ <pyglet.shapes.Line object at 0x00000206006C9ED0>
+ <pyglet.shapes.Line object at 0x00000206006CA140>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CAAA0>
+ <pyglet.shapes.Line object at 0x00000206006CBAC0>
+ <pyglet.shapes.Line object at 0x00000206006BB640>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069EF20>
+ <pyglet.shapes.Line object at 0x0000020600632F50>
+ <pyglet.shapes.Line object at 0x0000020600631060>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B2320>
+ <pyglet.shapes.Line object at 0x00000206006635B0>
+ <pyglet.shapes.Line object at 0x0000020600660B80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B2320>
+ <pyglet.shapes.Line object at 0x0000020600687130>
+ <pyglet.shapes.Line object at 0x0000020600686620>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006B88E0>
+ <pyglet.shapes.Line object at 0x00000206006C9AE0>
+ <pyglet.shapes.Line object at 0x00000206006CBB20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006BBF40>
+ <pyglet.shapes.Line object at 0x00000206006CA3B0>
+ <pyglet.shapes.Line object at 0x00000206006C9420>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CAB00>
+ <pyglet.shapes.Line object at 0x00000206006CBCD0>
+ <pyglet.shapes.Line object at 0x00000206006E4130>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CAA40>
+ <pyglet.shapes.Line object at 0x00000206006E48E0>
+ <pyglet.shapes.Line object at 0x00000206006E4D00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C9570>
+ <pyglet.shapes.Line object at 0x00000206006E54B0>
+ <pyglet.shapes.Line object at 0x00000206006E58D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E5FC0>
+ <pyglet.shapes.Line object at 0x00000206006E6FE0>
+ <pyglet.shapes.Line object at 0x00000206006E7310>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E7E20>
+ <pyglet.shapes.Line object at 0x0000020602700E80>
+ <pyglet.shapes.Line object at 0x0000020602701120>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602701A50>
+ <pyglet.shapes.Line object at 0x0000020602702A70>
+ <pyglet.shapes.Line object at 0x0000020602702CE0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602703640>
+ <pyglet.shapes.Line object at 0x000002060270C6A0>
+ <pyglet.shapes.Line object at 0x0000020602700460>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E5120>
+ <pyglet.shapes.Line object at 0x00000206006C88E0>
+ <pyglet.shapes.Line object at 0x00000206006CBFD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C81F0>
+ <pyglet.shapes.Line object at 0x0000020600687520>
+ <pyglet.shapes.Line object at 0x0000020600661570>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CAF20>
+ <pyglet.shapes.Line object at 0x00000205FF7D9120>
+ <pyglet.shapes.Line object at 0x0000020600631F60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CA4A0>
+ <pyglet.shapes.Line object at 0x000002060069DC60>
+ <pyglet.shapes.Line object at 0x000002060069C430>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C8910>
+ <pyglet.shapes.Line object at 0x00000206006B8790>
+ <pyglet.shapes.Line object at 0x00000206006B8B20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C8C70>
+ <pyglet.shapes.Line object at 0x000002060270C8B0>
+ <pyglet.shapes.Line object at 0x000002060270CCD0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C9D20>
+ <pyglet.shapes.Line object at 0x000002060270D480>
+ <pyglet.shapes.Line object at 0x000002060270D8A0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270CF40>
+ <pyglet.shapes.Line object at 0x000002060270E050>
+ <pyglet.shapes.Line object at 0x000002060270E470>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270EB60>
+ <pyglet.shapes.Line object at 0x000002060270FB80>
+ <pyglet.shapes.Line object at 0x000002060270FEB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270D480>
+ <pyglet.shapes.Line object at 0x000002060272DA20>
+ <pyglet.shapes.Line object at 0x000002060272DCC0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060272E5F0>
+ <pyglet.shapes.Line object at 0x000002060272F610>
+ <pyglet.shapes.Line object at 0x000002060272F880>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060272FD30>
+ <pyglet.shapes.Line object at 0x0000020602741240>
+ <pyglet.shapes.Line object at 0x000002060272CA90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270E3B0>
+ <pyglet.shapes.Line object at 0x000002060270CA30>
+ <pyglet.shapes.Line object at 0x000002060069F400>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270CDF0>
+ <pyglet.shapes.Line object at 0x00000206006B9CF0>
+ <pyglet.shapes.Line object at 0x00000206006BA380>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006B9030>
+ <pyglet.shapes.Line object at 0x00000205FF7F7880>
+ <pyglet.shapes.Line object at 0x00000205FF7F5F90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7F58D0>
+ <pyglet.shapes.Line object at 0x00000205FF7D3130>
+ <pyglet.shapes.Line object at 0x00000205FF7D3190>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7F884F0>
+ <pyglet.shapes.Line object at 0x00000205FF70CFD0>
+ <pyglet.shapes.Line object at 0x00000205F7FB8070>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FB9C90>
+ <pyglet.shapes.Line object at 0x00000205FF67EBC0>
+ <pyglet.shapes.Line object at 0x00000205FF60ABF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FBA1A0>
+ <pyglet.shapes.Line object at 0x00000205FF768310>
+ <pyglet.shapes.Line object at 0x00000205FF7683D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF76B070>
+ <pyglet.shapes.Line object at 0x00000205FF729CF0>
+ <pyglet.shapes.Line object at 0x00000205FF729F00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72B850>
+ <pyglet.shapes.Line object at 0x00000205FF755690>
+ <pyglet.shapes.Line object at 0x00000205FF757370>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72BCA0>
+ <pyglet.shapes.Line object at 0x00000205FF740E50>
+ <pyglet.shapes.Line object at 0x00000205FF741090>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF72B2B0>
+ <pyglet.shapes.Line object at 0x000002060069DDB0>
+ <pyglet.shapes.Line object at 0x000002060069F670>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060069FC10>
+ <pyglet.shapes.Line object at 0x0000020600655DE0>
+ <pyglet.shapes.Line object at 0x0000020600657550>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600657C10>
+ <pyglet.shapes.Line object at 0x0000020600632A10>
+ <pyglet.shapes.Line object at 0x00000205FF743760>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF60A0B0>
+ <pyglet.shapes.Line object at 0x00000205FF6915D0>
+ <pyglet.shapes.Line object at 0x00000205FF7BE590>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BD1E0>
+ <pyglet.shapes.Line object at 0x00000205FF7F5720>
+ <pyglet.shapes.Line object at 0x00000206006BA2C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006576D0>
+ <pyglet.shapes.Line object at 0x000002060270EB00>
+ <pyglet.shapes.Line object at 0x000002060272F6D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF743400>
+ <pyglet.shapes.Line object at 0x000002060272FCA0>
+ <pyglet.shapes.Line object at 0x000002060069CB20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7D1EA0>
+ <pyglet.shapes.Line object at 0x000002060069EBF0>
+ <pyglet.shapes.Line object at 0x0000020600632E00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002060270F5E0>
+ <pyglet.shapes.Line object at 0x0000020600630280>
+ <pyglet.shapes.Line object at 0x0000020600630820>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64FC70>
+ <pyglet.shapes.Line object at 0x00000206006269B0>
+ <pyglet.shapes.Line object at 0x00000206006265F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600627880>
+ <pyglet.shapes.Line object at 0x00000205FF6F5750>
+ <pyglet.shapes.Line object at 0x00000205FF6F7EB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF64FC70>
+ <pyglet.shapes.Line object at 0x0000020600603FA0>
+ <pyglet.shapes.Line object at 0x0000020600601B40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600600550>
+ <pyglet.shapes.Line object at 0x0000020600687310>
+ <pyglet.shapes.Line object at 0x0000020600685510>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600686110>
+ <pyglet.shapes.Line object at 0x00000206006CB460>
+ <pyglet.shapes.Line object at 0x00000206006CAE30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006CBF70>
+ <pyglet.shapes.Line object at 0x00000206006E5090>
+ <pyglet.shapes.Line object at 0x0000020600684850>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600627880>
+ <pyglet.shapes.Line object at 0x00000206006304C0>
+ <pyglet.shapes.Line object at 0x000002060069F760>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B1FF0>
+ <pyglet.shapes.Line object at 0x000002060270D270>
+ <pyglet.shapes.Line object at 0x00000206006BA890>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006C9930>
+ <pyglet.shapes.Line object at 0x00000205F7FD7CA0>
+ <pyglet.shapes.Line object at 0x00000205FF70E290>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600661BD0>
+ <pyglet.shapes.Line object at 0x00000205FF755690>
+ <pyglet.shapes.Line object at 0x00000205FF76B190>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006B9C90>
+ <pyglet.shapes.Line object at 0x0000020600655EA0>
+ <pyglet.shapes.Line object at 0x00000205FF6E5420>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF6B16C0>
+ <pyglet.shapes.Line object at 0x00000206006E58D0>
+ <pyglet.shapes.Line object at 0x00000206006E6860>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF757C10>
+ <pyglet.shapes.Line object at 0x00000206006E4C40>
+ <pyglet.shapes.Line object at 0x00000206006E4760>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E6860>
+ <pyglet.shapes.Line object at 0x00000206006E7280>
+ <pyglet.shapes.Line object at 0x00000206006E71C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E7640>
+ <pyglet.shapes.Line object at 0x0000020602702EF0>
+ <pyglet.shapes.Line object at 0x0000020602703C40>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602701180>
+ <pyglet.shapes.Line object at 0x0000020602741570>
+ <pyglet.shapes.Line object at 0x0000020602741810>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602742140>
+ <pyglet.shapes.Line object at 0x0000020602743160>
+ <pyglet.shapes.Line object at 0x00000206027433D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602743D30>
+ <pyglet.shapes.Line object at 0x0000020602794D90>
+ <pyglet.shapes.Line object at 0x00000206027408B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E56C0>
+ <pyglet.shapes.Line object at 0x00000205FF7413C0>
+ <pyglet.shapes.Line object at 0x0000020600654400>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205F7FE45B0>
+ <pyglet.shapes.Line object at 0x000002060270FEE0>
+ <pyglet.shapes.Line object at 0x0000020600603190>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602741720>
+ <pyglet.shapes.Line object at 0x00000206006275E0>
+ <pyglet.shapes.Line object at 0x0000020600630AF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027437F0>
+ <pyglet.shapes.Line object at 0x00000206006C9BD0>
+ <pyglet.shapes.Line object at 0x00000206006C98D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602741360>
+ <pyglet.shapes.Line object at 0x0000020600684850>
+ <pyglet.shapes.Line object at 0x00000205FF6B1DB0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602741DB0>
+ <pyglet.shapes.Line object at 0x0000020602794FA0>
+ <pyglet.shapes.Line object at 0x00000206027953C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027439A0>
+ <pyglet.shapes.Line object at 0x0000020602795B70>
+ <pyglet.shapes.Line object at 0x0000020602795F90>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602795510>
+ <pyglet.shapes.Line object at 0x0000020602796740>
+ <pyglet.shapes.Line object at 0x0000020602796B60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602797250>
+ <pyglet.shapes.Line object at 0x00000206027AC2B0>
+ <pyglet.shapes.Line object at 0x00000206027AC5E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AD0F0>
+ <pyglet.shapes.Line object at 0x00000206027AE110>
+ <pyglet.shapes.Line object at 0x00000206027AE3B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AECE0>
+ <pyglet.shapes.Line object at 0x00000206027AFD00>
+ <pyglet.shapes.Line object at 0x00000206027AFF70>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AC250>
+ <pyglet.shapes.Line object at 0x00000206027BD930>
+ <pyglet.shapes.Line object at 0x00000206027ACE20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020602795E10>
+ <pyglet.shapes.Line object at 0x0000020600685EA0>
+ <pyglet.shapes.Line object at 0x00000206006CB820>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600660AC0>
+ <pyglet.shapes.Line object at 0x000002060270C940>
+ <pyglet.shapes.Line object at 0x00000205FF7F5960>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AE6E0>
+ <pyglet.shapes.Line object at 0x00000206006E4070>
+ <pyglet.shapes.Line object at 0x00000206027022C0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AFF70>
+ <pyglet.shapes.Line object at 0x0000020602743AF0>
+ <pyglet.shapes.Line object at 0x0000020602741990>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AD0C0>
+ <pyglet.shapes.Line object at 0x00000206027BCC70>
+ <pyglet.shapes.Line object at 0x00000206027BD9F0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027AC940>
+ <pyglet.shapes.Line object at 0x00000206027BDB40>
+ <pyglet.shapes.Line object at 0x00000206027BDF60>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027BCFA0>
+ <pyglet.shapes.Line object at 0x00000206027BE710>
+ <pyglet.shapes.Line object at 0x00000206027BEB30>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027BC220>
+ <pyglet.shapes.Line object at 0x00000206027BF2E0>
+ <pyglet.shapes.Line object at 0x00000206027BF700>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027BFDF0>
+ <pyglet.shapes.Line object at 0x00000206027DCE50>
+ <pyglet.shapes.Line object at 0x00000206027DD180>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027DDC90>
+ <pyglet.shapes.Line object at 0x00000206027DECB0>
+ <pyglet.shapes.Line object at 0x00000206027DEF50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027DF880>
+ <pyglet.shapes.Line object at 0x00000206027E88E0>
+ <pyglet.shapes.Line object at 0x00000206027E8B50>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027E94B0>
+ <pyglet.shapes.Line object at 0x00000206027EA4D0>
+ <pyglet.shapes.Line object at 0x00000206027DE4D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027BDE70>
+ <pyglet.shapes.Line object at 0x00000206027402B0>
+ <pyglet.shapes.Line object at 0x0000020602701720>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000205FF7BCCA0>
+ <pyglet.shapes.Line object at 0x00000205FF6B16C0>
+ <pyglet.shapes.Line object at 0x0000020602795E10>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027BE320>
+ <pyglet.shapes.Line object at 0x00000206027961A0>
+ <pyglet.shapes.Line object at 0x0000020602794B80>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027431F0>
+ <pyglet.shapes.Line object at 0x00000206027AECE0>
+ <pyglet.shapes.Line object at 0x00000206027E85B0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x0000020600630A30>
+ <pyglet.shapes.Line object at 0x00000206027EA530>
+ <pyglet.shapes.Line object at 0x00000206027E94E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206006E6740>
+ <pyglet.shapes.Line object at 0x00000206027EA6E0>
+ <pyglet.shapes.Line object at 0x00000206027EAB00>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027E8BB0>
+ <pyglet.shapes.Line object at 0x00000206027EB2B0>
+ <pyglet.shapes.Line object at 0x00000206027EB6D0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206027E96F0>
+ <pyglet.shapes.Line object at 0x00000206027EBE80>
+ <pyglet.shapes.Line object at 0x00000206116082E0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206116089D0>
+ <pyglet.shapes.Line object at 0x00000206116099F0>
+ <pyglet.shapes.Line object at 0x0000020611609D20>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x000002061160A830>
+ <pyglet.shapes.Line object at 0x000002061160B850>
+ <pyglet.shapes.Line object at 0x000002061160BAF0>]
+INFO:root:{'cost': '3 R', 'c1': (2633, 431), 'c2': (2822, 355)}
+INFO:root:[<pyglet.shapes.Line object at 0x00000206116085E0>
+ <pyglet.shapes.Line object at 0x0000020611619480>
+ <pyglet.shapes.Line object at 0x00000206116196F0>]
 INFO:root:Closing the application

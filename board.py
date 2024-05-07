@@ -45,4 +45,4 @@ class Board:
         """
         if city1 not in self.network.nodes or city2 not in self.network.nodes:
             raise ValueError("One or more cities do not exist on the board.")
-        self.network.add_edge(city1, city2, cost=cost)
+        self.network.add_edge(city1, city2, cost=cost, c1=self.network.nodes[city1]['coords'], c2=self.network.nodes[city2]['coords'])

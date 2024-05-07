@@ -20,7 +20,7 @@ class Main(pg.window.Window):
         self.update_tick = 1/30
         self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width / self.scale), int(self.height / self.scale)), subpixel=True)
         
-        self.lines = np.array([])
+        self.routes = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
         
         self.board = Board()
@@ -35,7 +35,13 @@ class Main(pg.window.Window):
                 city[0].delete()
                 city[1].delete()
         
+        if self.routes.size > 0:
+            for route in self.routes:
+                route.delete()
+        
         self.cities = np.array([[None, None]], ndmin=2)
+        
+        self.routes = np.array([])
             
         for _, data in self.board.network.nodes.items():
             coords = data['coords']
@@ -46,6 +52,16 @@ class Main(pg.window.Window):
                     self.cities[0] = np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * self.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * self.scale, anchor_x='center', anchor_y='baseline', font_size=10 * self.scale, color=(0, 0, 0, 255))])
                 else:
                     self.cities = np.append(self.cities, [[pg.shapes.Circle(adjusted_x, adjusted_y, 5 * self.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * self.scale, anchor_x='center', anchor_y='baseline', font_size=10 * self.scale, color=(0, 0, 0, 255))]], axis=0)
+            
+        for _, data in self.board.network.edges.items():
+            logging.info(data)
+            c1 = data['c1']
+            c1 = np.array([c1[0] - self.shift_x, self.image.height - self.shift_y - c1[1]]) * self.scale
+            c2 = data['c2']
+            c2 = np.array([c2[0] - self.shift_x, self.image.height - self.shift_y - c2[1]]) * self.scale
+            cost = data['cost']
+            self.routes = np.append(self.routes, misc.create_lines(np.array(c1), np.array(c2), cost))
+            logging.info(self.routes)
         
         if dt < 1/30:
             pass
@@ -92,6 +108,8 @@ class Main(pg.window.Window):
         if self.cities[0][0] is not None:
             misc.draw_array(self.cities[:,0])
             misc.draw_array(self.cities[:,1])
+        if self.routes.size > 0:
+            misc.draw_array(self.routes)
 
 if __name__ == "__main__":
     main = Main(resizable=True)
