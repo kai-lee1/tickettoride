@@ -17,7 +17,7 @@ class Main(pg.window.Window):
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
-        self.update_tick = 1/30
+        self.update_tick = misc.target_fps
         self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width / self.scale), int(self.height / self.scale)), subpixel=True)
         
         self.routes = np.array([])
@@ -54,16 +54,14 @@ class Main(pg.window.Window):
                     self.cities = np.append(self.cities, [[pg.shapes.Circle(adjusted_x, adjusted_y, 5 * self.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * self.scale, anchor_x='center', anchor_y='baseline', font_size=10 * self.scale, color=(0, 0, 0, 255))]], axis=0)
             
         for _, data in self.board.network.edges.items():
-            logging.info(data)
             c1 = data['c1']
             c1 = np.array([c1[0] - self.shift_x, self.image.height - self.shift_y - c1[1]]) * self.scale
             c2 = data['c2']
             c2 = np.array([c2[0] - self.shift_x, self.image.height - self.shift_y - c2[1]]) * self.scale
             cost = data['cost']
-            self.routes = np.append(self.routes, misc.create_lines(np.array(c1), np.array(c2), cost))
-            logging.info(self.routes)
+            self.routes = np.append(self.routes, misc.create_lines(np.array(c1), np.array(c2), self.scale, cost))
         
-        if dt < 1/30:
+        if dt < misc.target_fps:
             pass
         elif dt/self.update_tick > 2:
             self.update_tick *= 1.1
@@ -113,5 +111,5 @@ class Main(pg.window.Window):
 
 if __name__ == "__main__":
     main = Main(resizable=True)
-    pg.clock.schedule_interval(main.update, 1/30)
+    pg.clock.schedule_interval(main.update, misc.target_fps)
     pg.app.run()

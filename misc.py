@@ -1,19 +1,22 @@
 import pyglet as pg
 import numpy as np
 
+target_fps = 1/15
+
 draw_array = np.vectorize(lambda n: n.draw())
 
 get_length = lambda a: np.sum(np.vectorize(lambda n: int(n) if n.isdigit() else 0)(a))
 
-def create_lines(c1, c2, cost: str):
+make_lines = np.vectorize(lambda c1, dist_vector, length, scale, i: pg.shapes.Line(c1[0] + dist_vector[0] * (i + 0.1) / length, c1[1] + dist_vector[1] * (i + 0.1) / length, c1[0] + dist_vector[0] * (i + 0.9) / length, c1[1] + dist_vector[1] * (i + 0.9) / length, color=(0, 0, 0), width=2*scale), signature='(2),(2),(),(),()->()')
+
+def create_lines(c1, c2, scale, cost: str):
     data = np.array(cost.split())
     lines = np.array([])
     length = get_length(data)
     
     dist_vector = c2 - c1
     
-    for i in range(length):
-        lines = np.append(lines, pg.shapes.Line(c1[0] + dist_vector[0] * (i + 0.1) / length, c1[1] + dist_vector[1] * (i + 0.1) / length, c1[0] + dist_vector[0] * (i + 0.9) / length, c1[1] + dist_vector[1] * (i + 0.9) / length, color=(0, 0, 0)))
+    lines = make_lines(c1, dist_vector, length, scale, np.array(range(length)))
 
     return lines
 
