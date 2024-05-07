@@ -31,37 +31,19 @@ class Main(pg.window.Window):
         misc.update_background(self)
         
         if self.cities[0][0] is not None:
-            for city in self.cities:
-                city[0].delete()
-                city[1].delete()
+            misc.delete_sprites(self.cities[:,0])
+            misc.delete_sprites(self.cities[:,1])
         
         if self.routes.size > 0:
-            for route in self.routes:
-                route.delete()
+            misc.delete_sprites(self.routes)
         
         self.cities = np.array([[None, None]], ndmin=2)
         
         self.routes = np.array([])
-            
-        for _, data in self.board.network.nodes.items():
-            coords = data['coords']
-            adjusted_x = (coords[0] - self.shift_x) * self.scale
-            adjusted_y = (self.image.height - self.shift_y - coords[1]) * self.scale
-            if 0 <= adjusted_x < self.width and 0 <= adjusted_y < self.height:
-                if self.cities[0][0] is None:
-                    self.cities[0] = np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * self.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * self.scale, anchor_x='center', anchor_y='baseline', font_size=10 * self.scale, color=(0, 0, 0, 255))])
-                else:
-                    self.cities = np.append(self.cities, [[pg.shapes.Circle(adjusted_x, adjusted_y, 5 * self.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * self.scale, anchor_x='center', anchor_y='baseline', font_size=10 * self.scale, color=(0, 0, 0, 255))]], axis=0)
-            
-        for _, data in self.board.network.edges.items():
-            c1 = data['c1']
-            c1 = np.array([c1[0] - self.shift_x, self.image.height - self.shift_y - c1[1]]) * self.scale
-            c2 = data['c2']
-            c2 = np.array([c2[0] - self.shift_x, self.image.height - self.shift_y - c2[1]]) * self.scale
-            cost = data['cost']
-            if c1[0] < 0 or c1[0] >= self.width or c1[1] < 0 or c1[1] >= self.height or c2[0] < 0 or c2[0] >= self.width or c2[1] < 0 or c2[1] >= self.height:
-                continue
-            self.routes = np.append(self.routes, misc.create_lines(np.array(c1), np.array(c2), self.scale, cost))
+        
+        self.cities = misc.render_cities(self, list(dict(self.board.network.nodes.data()).values()))
+
+        self.routes = misc.render_routes(self, np.array(self.board.network.edges.data()))
         
         if dt < misc.target_fps:
             pass
@@ -73,6 +55,8 @@ class Main(pg.window.Window):
             self.update_tick /= 1.1
             pg.clock.unschedule(self.update)
             pg.clock.schedule_interval(self.update, self.update_tick)
+        
+        logging.info(f"Update tick: {1/dt}")
 
     def on_close(self):
         logging.info("Closing the application")
