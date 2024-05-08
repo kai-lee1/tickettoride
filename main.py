@@ -88,9 +88,8 @@ class Main(pg.window.Window):
         self.clear()
         pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
         self.background.draw()
-        if self.cities[0][0] is not None:
-            misc.draw_array(self.cities[:,0])
-            misc.draw_array(self.cities[:,1])
+        misc.draw_array(self.cities[:,0])
+        misc.draw_array(self.cities[:,1])
         if self.routes.size > 0:
             misc.draw_array(self.routes)
 
