@@ -52,5 +52,27 @@ class Board:
             match (i % 9):
                 case 0:
                     self.deck = np.append(self.deck, "L")
+                case 1:
+                    self.deck = np.append(self.deck, "R")
+                case 2:
+                    self.deck = np.append(self.deck, "O")
+                case 3:
+                    self.deck = np.append(self.deck, "Y")
+                case 4:
+                    self.deck = np.append(self.deck, "G")
+                case 5:
+                    self.deck = np.append(self.deck, "U")
+                case 6:
+                    self.deck = np.append(self.deck, "P")
+                case 7:
+                    self.deck = np.append(self.deck, "B")
+                case 8:
+                    self.deck = np.append(self.deck, "W")
                 case _:
                     pass
+        np.random.shuffle(self.deck)
+
+    def draw(self):
+        top = self.deck[0]
+        self.deck = np.delete(self.deck, 0)
+        return top

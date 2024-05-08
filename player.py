@@ -10,6 +10,6 @@ class Player:
         self.hand: np.ndarray = np.array([])
         self.score: np.ndarray = np.array([])
     
-    def draw_card ():
-        pass
-    
+    def draw_card (self):
+        self.hand = np.append(self.hand, self.board.draw())
+        
