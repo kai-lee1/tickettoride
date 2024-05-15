@@ -56,8 +56,8 @@ render_routes = np.vectorize(render_route, signature='(),()->(n)')
 
 def render_card(main, x, y, key):
     card = main.cards[key]
-    card.draw()
-    
+    card = pg.sprite.Sprite(card, x=x, y=y)
+    main.sprites = np.append(main.sprites, card)
 
 def update_card(main):
     main.background.delete()

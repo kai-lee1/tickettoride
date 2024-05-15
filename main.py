@@ -23,6 +23,7 @@ class Main(pg.window.Window):
                             "P": pg.image.load('assets/purple.png'),
                             "U": pg.image.load('assets/black.png'),
                             "W": pg.image.load('assets/white.png')}
+        self.sprites = np.array([])
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
@@ -45,6 +46,9 @@ class Main(pg.window.Window):
         
         if self.routes.size > 0:
             misc.delete_sprites(self.routes)
+        
+        if self.sprites.size > 0:
+            misc.delete_sprites(self.sprites)
         
         self.cities = np.array([[None, None]], ndmin=2)
         
@@ -99,6 +103,7 @@ class Main(pg.window.Window):
         self.background.draw()
         misc.draw_array(self.cities[:,0])
         misc.draw_array(self.cities[:,1])
+        misc.draw_array(self.sprites)
         if self.routes.size > 0:
             misc.draw_array(self.routes)
 
