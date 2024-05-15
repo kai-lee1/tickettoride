@@ -1,5 +1,0 @@
-INFO:root:Mouse clicked at (466, 273)
-INFO:root:Mouse clicked at (653, 292)
-INFO:root:Mouse clicked at (799, 366)
-INFO:root:Mouse clicked at (1419, 802)
-INFO:root:Closing the application
