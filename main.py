@@ -13,12 +13,12 @@ class Main(pg.window.Window):
             os.remove('log.txt')
         logging.basicConfig(filename='log.txt', level=logging.INFO)
         
-        self.image: pg.image.AbstractImage = pg.image.load('blank.bmp')
+        self.image: pg.image.AbstractImage = pg.image.load('assets/blank.bmp')
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
         self.update_tick = misc.target_fps
-        self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width / self.scale), int(self.height / self.scale)), subpixel=True)
+        self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width * 0.8 / self.scale), int(self.height * 0.7 / self.scale)), subpixel=True)
         
         self.routes = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
@@ -65,24 +65,24 @@ class Main(pg.window.Window):
     def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):
         self.shift_x -= dx / self.scale
         self.shift_y -= dy / self.scale
-        self.shift_x = max(0, min(self.image.width - self.width / self.scale, self.shift_x))
-        self.shift_y = max(0, min(self.image.height - self.height / self.scale, self.shift_y))
+        self.shift_x = max(0, min(self.image.width - self.width * 0.8 / self.scale, self.shift_x))
+        self.shift_y = max(0, min(self.image.height - self.height * 0.7 / self.scale, self.shift_y))
 
     def on_mouse_scroll(self, x, y, scroll_x, scroll_y):
         prev_scale = self.scale
         self.scale *= (1.1 ** scroll_y)
         self.scale = max(0.66, min(self.scale, 3.0))
         
-        center_x = self.width / 2.0 / prev_scale + self.shift_x
-        center_y = self.height / 2.0 / prev_scale + self.shift_y
+        center_x = self.width * 0.8 / 2.0 / prev_scale + self.shift_x
+        center_y = self.height * 0.7 / 2.0 / prev_scale + self.shift_y
         
         offset_x = (center_x - self.shift_x) * prev_scale
         offset_y = (center_y - self.shift_y) * prev_scale
         
         self.shift_x = center_x - offset_x / self.scale
         self.shift_y = center_y - offset_y / self.scale
-        self.shift_x = max(0, min(self.image.width - self.width / self.scale, self.shift_x))
-        self.shift_y = max(0, min(self.image.height - self.height / self.scale, self.shift_y))
+        self.shift_x = max(0, min(self.image.width - self.width * 0.8 / self.scale, self.shift_x))
+        self.shift_y = max(0, min(self.image.height - self.height * 0.7 / self.scale, self.shift_y))
 
     def on_draw(self):
         self.clear()

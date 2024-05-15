@@ -26,16 +26,16 @@ def update_background(main):
     main.background.delete()
     main.shift_x = max(0, main.shift_x)
     main.shift_y = max(0, main.shift_y)
-    main.shift_x = int(min(main.image.width - main.width / main.scale, main.shift_x))
-    main.shift_y = int(min(main.image.height - main.height / main.scale, main.shift_y))
-    main.background = pg.sprite.Sprite(main.image.get_region(main.shift_x, main.shift_y, int(main.width / main.scale), int(main.height / main.scale)), subpixel=True)
+    main.shift_x = int(min(main.image.width - main.width * 0.8 / main.scale, main.shift_x))
+    main.shift_y = int(min(main.image.height - main.height * 0.7 / main.scale, main.shift_y))
+    main.background = pg.sprite.Sprite(main.image.get_region(main.shift_x, main.shift_y, int(main.width * 0.8 / main.scale), int(main.height * 0.7 / main.scale)), subpixel=True)
     main.background.scale = main.scale
 
 def render_city(main, data):
     coords = data['coords']
     adjusted_x = (coords[0] - main.shift_x) * main.scale
     adjusted_y = (main.image.height - main.shift_y - coords[1]) * main.scale
-    if 0 <= adjusted_x < main.width and 0 <= adjusted_y < main.height:
+    if 0 <= adjusted_x < main.width * 0.8 and 0 <= adjusted_y < main.height * 0.7:
         return np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * main.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * main.scale, anchor_x='center', anchor_y='baseline', font_size=10 * main.scale, color=(0, 0, 0, 255))])
     return np.array([None, None])
 
@@ -48,7 +48,7 @@ def render_route(main, data):
     c2 = data['c2']
     c2 = np.array([c2[0] - main.shift_x, main.image.height - main.shift_y - c2[1]]) * main.scale
     cost = data['cost']
-    if not (c1[0] < 0 or c1[0] >= main.width or c1[1] < 0 or c1[1] >= main.height or c2[0] < 0 or c2[0] >= main.width or c2[1] < 0 or c2[1] >= main.height):
+    if not (c1[0] < 0 or c1[0] >= main.width * 0.8 or c1[1] < 0 or c1[1] >= main.height * 0.7 or c2[0] < 0 or c2[0] >= main.width * 0.8 or c2[1] < 0 or c2[1] >= main.height * 0.7):
         return create_lines(np.array(c1), np.array(c2), main.scale, cost)
     return np.array([])
 
