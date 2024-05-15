@@ -56,7 +56,7 @@ class Main(pg.window.Window):
             pg.clock.unschedule(self.update)
             pg.clock.schedule_interval(self.update, self.update_tick)
         
-        logging.info(f"Update tick: {1/dt}")
+        #logging.info(f"Update tick: {1/dt}")
 
     def on_close(self):
         logging.info("Closing the application")
@@ -92,6 +92,9 @@ class Main(pg.window.Window):
         misc.draw_array(self.cities[:,1])
         if self.routes.size > 0:
             misc.draw_array(self.routes)
+
+    def on_mouse_press(self, x, y, button, modifiers):
+        logging.info(f"Mouse clicked at ({x}, {y})")
 
 if __name__ == "__main__":
     main = Main(resizable=True)

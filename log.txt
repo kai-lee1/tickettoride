@@ -1,43 +1,8 @@
-INFO:root:Update tick: 10.910001951647828
-INFO:root:Update tick: 10.911271054231067
-INFO:root:Update tick: 2.4322999883083347
-INFO:root:Update tick: 12.589582603866624
-INFO:root:Update tick: 14.958430357008332
-INFO:root:Update tick: 16.382275837710477
-INFO:root:Update tick: 16.479435560569094
-INFO:root:Update tick: 16.23303835977244
-INFO:root:Update tick: 16.348629431144424
-INFO:root:Update tick: 16.454268111904884
-INFO:root:Update tick: 16.418291308463107
-INFO:root:Update tick: 15.568989355176178
-INFO:root:Update tick: 16.23815001488099
-INFO:root:Update tick: 16.138549302084154
-INFO:root:Update tick: 16.38957039323332
-INFO:root:Update tick: 16.375360995103684
-INFO:root:Update tick: 16.202333718926663
-INFO:root:Update tick: 16.410938030416208
-INFO:root:Update tick: 16.35197213776341
-INFO:root:Update tick: 16.383958437605436
-INFO:root:Update tick: 16.39918853600861
-INFO:root:Update tick: 16.405686385598145
-INFO:root:Update tick: 16.41986081968875
-INFO:root:Update tick: 16.251604757917335
-INFO:root:Update tick: 16.40796284003248
-INFO:root:Update tick: 16.41065632994029
-INFO:root:Update tick: 16.407051605832347
-INFO:root:Update tick: 16.343810233713796
-INFO:root:Update tick: 16.365074168538307
-INFO:root:Update tick: 16.414842451015215
-INFO:root:Update tick: 16.43016647133173
-INFO:root:Update tick: 16.45962054901358
-INFO:root:Update tick: 16.45840666568936
-INFO:root:Update tick: 16.439039936758473
-INFO:root:Update tick: 16.278134192040064
-INFO:root:Update tick: 16.397602502599387
-INFO:root:Update tick: 16.177952809200196
-INFO:root:Update tick: 16.18803766708022
-INFO:root:Update tick: 13.616484118817509
-INFO:root:Update tick: 16.414898505403322
-INFO:root:Update tick: 16.324756622251613
-INFO:root:Update tick: 16.4319221353419
-INFO:root:Update tick: 16.142426825112615
+INFO:root:Mouse clicked at (644, 326)
+INFO:root:Mouse clicked at (482, 196)
+INFO:root:Mouse clicked at (646, 344)
+INFO:root:Mouse clicked at (693, 327)
+INFO:root:Mouse clicked at (771, 271)
+INFO:root:Mouse clicked at (499, 248)
+INFO:root:Mouse clicked at (422, 345)
+INFO:root:Closing the application
