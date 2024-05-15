@@ -53,3 +53,17 @@ def render_route(main, data):
     return np.array([])
 
 render_routes = np.vectorize(render_route, signature='(),()->(n)')
+
+def render_card(main, x, y, key):
+    card = main.cards[key]
+    card.draw()
+    
+
+def update_card(main):
+    main.background.delete()
+    main.shift_x = max(0, main.shift_x)
+    main.shift_y = max(0, main.shift_y)
+    main.shift_x = int(min(main.image.width - main.width * 0.8 / main.scale, main.shift_x))
+    main.shift_y = int(min(main.image.height - main.height * 0.7 / main.scale, main.shift_y))
+    main.background = pg.sprite.Sprite(main.image.get_region(main.shift_x, main.shift_y, int(main.width * 0.8 / main.scale), int(main.height * 0.7 / main.scale)), subpixel=True)
+    main.background.scale = main.scale

@@ -14,6 +14,15 @@ class Main(pg.window.Window):
         logging.basicConfig(filename='log.txt', level=logging.INFO)
         
         self.image: pg.image.AbstractImage = pg.image.load('assets/blank.bmp')
+        self.cards: dict =  {"L": pg.image.load('assets/locomotive.png'), 
+                            "R": pg.image.load('assets/red.png'),
+                            "O": pg.image.load('assets/orange.png'),
+                            "Y": pg.image.load('assets/yellow.png'),
+                            "G": pg.image.load('assets/green.png'),
+                            "B": pg.image.load('assets/blue.png'),
+                            "P": pg.image.load('assets/purple.png'),
+                            "U": pg.image.load('assets/black.png'),
+                            "W": pg.image.load('assets/white.png')}
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
