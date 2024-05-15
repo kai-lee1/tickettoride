@@ -1,8 +1,8 @@
-INFO:root:Mouse clicked at (644, 326)
-INFO:root:Mouse clicked at (482, 196)
-INFO:root:Mouse clicked at (646, 344)
-INFO:root:Mouse clicked at (693, 327)
-INFO:root:Mouse clicked at (771, 271)
-INFO:root:Mouse clicked at (499, 248)
-INFO:root:Mouse clicked at (422, 345)
+INFO:root:Mouse clicked at (812, 403)
+INFO:root:Mouse clicked at (708, 342)
+INFO:root:Mouse clicked at (803, 328)
+INFO:root:Mouse clicked at (795, 425)
+INFO:root:Route clicked
+INFO:root:Mouse clicked at (850, 446)
+INFO:root:Route clicked
 INFO:root:Closing the application

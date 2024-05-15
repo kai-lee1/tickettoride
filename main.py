@@ -95,6 +95,16 @@ class Main(pg.window.Window):
 
     def on_mouse_press(self, x, y, button, modifiers):
         logging.info(f"Mouse clicked at ({x}, {y})")
+        for city in self.cities:
+            if city[0] is not None:
+                if (x,y) in city[0]:
+                    logging.info(f"City {city[1].text} clicked")
+                    break
+        for route in self.routes:
+            if route is not None:
+                if (x,y) in route:
+                    logging.info(f"Route clicked")
+                    break
 
 if __name__ == "__main__":
     main = Main(resizable=True)
