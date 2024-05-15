@@ -1,6 +1,7 @@
 import networkx as nx
 import numpy as np
 from setup import setup
+import logging
 
 class Board:
     def __init__(self):
@@ -12,7 +13,9 @@ class Board:
         self.deck: np.ndarray = np.array([])
         self.discard: np.ndarray = np.array([])
 
-        setup(self)        
+        setup(self)
+
+        self.populate_deck()
 
     def shuffle_in_discard(self) -> None:
         """
@@ -24,7 +27,7 @@ class Board:
     
     def add_city(self, name: str, x: float, y: float) -> None:
         """
-        Adds a city to the board.
+        Adds a city to the `board.`
         
         Parameters:
             main (Main): The main instance.
@@ -52,6 +55,7 @@ class Board:
             match (i % 9):
                 case 0:
                     self.deck = np.append(self.deck, "L")
+                    #logging.info(self.deck[i] + str(i))
                 case 1:
                     self.deck = np.append(self.deck, "R")
                 case 2:
@@ -71,10 +75,24 @@ class Board:
                 case _:
                     pass
         np.random.shuffle(self.deck)
+        # for i in range(144):
+        #     logging.info(self.deck[i] + str(i))
+        
+
+    
 
     def draw(self):
         top = self.deck[0]
         self.deck = np.delete(self.deck, 0)
         return top
+
+    def claim_route(self, player: int, city1: str, city2: str):
+        if city1 not in self.network.nodes or city2 not in self.network.nodes:
+            logging.info("One or more cities do not exist on the board.")
+        elif self.network.has_edge(city1, city2):
+            self.network.remove_edge(city1, city2)
+            self.network.add_edge(city1, city2, player=player)
+        else:
+            logging.info("The cities are not connected.")
+
     
-    #testing
