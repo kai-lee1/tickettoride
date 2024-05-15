@@ -76,3 +76,5 @@ class Board:
         top = self.deck[0]
         self.deck = np.delete(self.deck, 0)
         return top
+    
+    #testing
