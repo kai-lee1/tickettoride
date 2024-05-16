@@ -6,4 +6,5 @@ if TYPE_CHECKING:
 def setup(board: Board):
     board.add_city("London", 2633, 431)
     board.add_city("Copenhagen", 2822, 355)
-    board.add_connection("London", "Copenhagen", "3 R")
+    board.add_city("Berlin", 2826, 414)
+    board.add_connection("London", "Copenhagen", "R R R R")

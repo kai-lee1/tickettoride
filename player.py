@@ -13,4 +13,3 @@ class Player:
     def draw_card (self):
         self.hand = np.append(self.hand, self.board.draw())
     
-     

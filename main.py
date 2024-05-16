@@ -14,7 +14,7 @@ class Main(pg.window.Window):
         logging.basicConfig(filename='log.txt', level=logging.INFO)
         
         self.image: pg.image.AbstractImage = pg.image.load('assets/blank.bmp')
-        self.cards: dict =  {"L": pg.image.load('assets/locomotive.png'), 
+        self.cards_images: dict =  {"L": pg.image.load('assets/locomotive.png'), 
                             "R": pg.image.load('assets/red.png'),
                             "O": pg.image.load('assets/orange.png'),
                             "Y": pg.image.load('assets/yellow.png'),
@@ -23,18 +23,18 @@ class Main(pg.window.Window):
                             "P": pg.image.load('assets/purple.png'),
                             "U": pg.image.load('assets/black.png'),
                             "W": pg.image.load('assets/white.png')}
-        self.sprites = np.array([])
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
         self.update_tick = misc.target_fps
-        self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width * 0.8 / self.scale), int(self.height * 0.7 / self.scale)), subpixel=True)
+        self.background = pg.sprite.Sprite(self.image.get_region(self.shift_x, self.shift_y, int(self.width * misc.gui_gap[0] / self.scale), int(self.height * misc.gui_gap[1] / self.scale)), subpixel=True)
         
+        self.cards = np.array([])
         self.routes = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
         
         self.board = Board()
-        
+                
         pg.clock.schedule_interval(self.update, self.update_tick)
 
     def update(self, dt):
@@ -47,16 +47,15 @@ class Main(pg.window.Window):
         if self.routes.size > 0:
             misc.delete_sprites(self.routes)
         
-        if self.sprites.size > 0:
-            misc.delete_sprites(self.sprites)
-        
         self.cities = np.array([[None, None]], ndmin=2)
         
         self.routes = np.array([])
-        
+                
         self.cities = misc.render_cities(self, list(dict(self.board.network.nodes.data()).values()))
 
         self.routes = misc.render_routes(self, np.array(self.board.network.edges.data()))
+        
+        misc.render_face_up(self)
         
         if dt < misc.target_fps:
             pass
@@ -76,48 +75,50 @@ class Main(pg.window.Window):
         pg.app.exit()
 
     def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):
+        if not buttons & pg.window.mouse.RIGHT:
+            return
         self.shift_x -= dx / self.scale
         self.shift_y -= dy / self.scale
-        self.shift_x = max(0, min(self.image.width - self.width * 0.8 / self.scale, self.shift_x))
-        self.shift_y = max(0, min(self.image.height - self.height * 0.7 / self.scale, self.shift_y))
+        self.shift_x = max(0, min(self.image.width - self.width * misc.gui_gap[0] / self.scale, self.shift_x))
+        self.shift_y = max(0, min(self.image.height - self.height * misc.gui_gap[1] / self.scale, self.shift_y))
 
     def on_mouse_scroll(self, x, y, scroll_x, scroll_y):
         prev_scale = self.scale
         self.scale *= (1.1 ** scroll_y)
         self.scale = max(0.66, min(self.scale, 3.0))
         
-        center_x = self.width * 0.8 / 2.0 / prev_scale + self.shift_x
-        center_y = self.height * 0.7 / 2.0 / prev_scale + self.shift_y
+        center_x = self.width * misc.gui_gap[0] / 2.0 / prev_scale + self.shift_x
+        center_y = self.height * misc.gui_gap[1] / 2.0 / prev_scale + self.shift_y
         
         offset_x = (center_x - self.shift_x) * prev_scale
         offset_y = (center_y - self.shift_y) * prev_scale
         
         self.shift_x = center_x - offset_x / self.scale
         self.shift_y = center_y - offset_y / self.scale
-        self.shift_x = max(0, min(self.image.width - self.width * 0.8 / self.scale, self.shift_x))
-        self.shift_y = max(0, min(self.image.height - self.height * 0.7 / self.scale, self.shift_y))
+        self.shift_x = max(0, min(self.image.width - self.width * misc.gui_gap[0] / self.scale, self.shift_x))
+        self.shift_y = max(0, min(self.image.height - self.height * misc.gui_gap[1] / self.scale, self.shift_y))
 
     def on_draw(self):
         self.clear()
         pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
         self.background.draw()
-        misc.draw_array(self.cities[:,0])
-        misc.draw_array(self.cities[:,1])
-        misc.draw_array(self.sprites)
         if self.routes.size > 0:
             misc.draw_array(self.routes)
+        misc.draw_array(self.cities[:,0])
+        misc.draw_array(self.cities[:,1])
+        if self.cards.size > 0:
+            misc.draw_array(self.cards)
 
     def on_mouse_press(self, x, y, button, modifiers):
-        logging.info(f"Mouse clicked at ({x}, {y})")
+        if not button == pg.window.mouse.LEFT:
+            return
         for city in self.cities:
             if city[0] is not None:
                 if (x,y) in city[0]:
-                    logging.info(f"City {city[1].text} clicked")
                     break
         for route in self.routes:
             if route is not None:
                 if (x,y) in route:
-                    logging.info(f"Route clicked")
                     break
 
 if __name__ == "__main__":

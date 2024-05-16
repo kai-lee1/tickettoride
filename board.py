@@ -12,6 +12,7 @@ class Board:
         self.players: np.ndarray = np.array([])
         self.deck: np.ndarray = np.array([])
         self.discard: np.ndarray = np.array([])
+        self.face_up: np.ndarray = np.array([])
 
         setup(self)
 
@@ -75,11 +76,14 @@ class Board:
                 case _:
                     pass
         np.random.shuffle(self.deck)
-        # for i in range(144):
-        #     logging.info(self.deck[i] + str(i))
-        
-
+        np.vectorize(lambda n: self.turn_up(), signature='()->()')(list(range(5)))
     
+    def turn_up(self):
+        if self.face_up.size < 5:
+            self.face_up = np.append(self.face_up, self.deck[0])
+            self.deck = np.delete(self.deck, 0)
+        else:
+            logging.info("There are already 5 face-up cards.")
 
     def draw(self):
         top = self.deck[0]
