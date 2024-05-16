@@ -32,7 +32,10 @@ class Main(pg.window.Window):
         self.cards = np.array([])
         self.routes = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
+        self.side_bar_components = np.array([])
         
+        self.current_screen = "main"
+                
         self.board = Board()
                 
         pg.clock.schedule_interval(self.update, self.update_tick)
@@ -57,6 +60,8 @@ class Main(pg.window.Window):
         
         misc.render_face_up(self)
         
+        misc.render_side_bar(self)
+        
         if dt < misc.target_fps:
             pass
         elif dt/self.update_tick > 2:
@@ -75,8 +80,6 @@ class Main(pg.window.Window):
         pg.app.exit()
 
     def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):
-        if not buttons & pg.window.mouse.RIGHT:
-            return
         self.shift_x -= dx / self.scale
         self.shift_y -= dy / self.scale
         self.shift_x = max(0, min(self.image.width - self.width * misc.gui_gap[0] / self.scale, self.shift_x))
@@ -100,18 +103,19 @@ class Main(pg.window.Window):
 
     def on_draw(self):
         self.clear()
-        pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
-        self.background.draw()
-        if self.routes.size > 0:
-            misc.draw_array(self.routes)
-        misc.draw_array(self.cities[:,0])
-        misc.draw_array(self.cities[:,1])
-        if self.cards.size > 0:
-            misc.draw_array(self.cards)
+        if self.current_screen == "main":
+            pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
+            self.background.draw()
+            if self.routes.size > 0:
+                misc.draw_array(self.routes)
+            misc.draw_array(self.cities[:,0])
+            misc.draw_array(self.cities[:,1])
+            if self.cards.size > 0:
+                misc.draw_array(self.cards)
+            if self.side_bar_components.size > 0:
+                misc.draw_array(self.side_bar_components)
 
     def on_mouse_press(self, x, y, button, modifiers):
-        if not button == pg.window.mouse.LEFT:
-            return
         for city in self.cities:
             if city[0] is not None:
                 if (x,y) in city[0]:

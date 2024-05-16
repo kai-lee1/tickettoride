@@ -2,6 +2,7 @@ import networkx as nx
 import numpy as np
 from setup import setup
 import logging
+from player import Player
 
 class Board:
     def __init__(self):
@@ -13,10 +14,24 @@ class Board:
         self.deck: np.ndarray = np.array([])
         self.discard: np.ndarray = np.array([])
         self.face_up: np.ndarray = np.array([])
+        self.followed_player = None
 
         setup(self)
 
         self.populate_deck()
+        
+    def make_players(self, num: int) -> None:
+        """
+        Makes the players for the game.
+        
+        Parameters:
+            num (int): The number of players.
+        """
+        self.players = np.array([])
+        for i in range(num):
+            self.players = np.append(self.players, Player(self))
+        
+        self.followed_player = self.players[0]
 
     def shuffle_in_discard(self) -> None:
         """

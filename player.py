@@ -1,12 +1,11 @@
 import numpy as np
-from board import Board
 #hand, score. we can add the destination tickets later
 class Player:
-    def __init__(self, board: Board):
+    def __init__(self, board):
         """
         Initializes a new instance of the Player class.
         """
-        self.board: Board = board
+        self.board = board
         self.hand: np.ndarray = np.array([])
         self.score: np.ndarray = np.array([])
     

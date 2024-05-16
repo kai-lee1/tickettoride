@@ -8,13 +8,13 @@ card_dim = (340, 210)
 
 gui_gap = (0.8, 0.8)
 
-colors = { "L": (255, 255, 255),
+colors = { "L": (75, 0, 130),
             "R": (255, 0, 0),
             "O": (255, 165, 0),
             "Y": (255, 255, 0),
             "G": (0, 128, 0),
             "B": (0, 0, 255),
-            "P": (128, 0, 128),
+            "P": (255, 0, 255),
             "U": (0, 0, 0),
             "W": (255, 255, 255)}
 
@@ -77,14 +77,14 @@ def render_route(main, data):
 
 render_routes = np.vectorize(render_route, signature='(),()->(n)')
 
-def render_card(main, x, y, scale, key):
-    img = main.cards_images[key]
-    card = pg.sprite.Sprite(img.get_region(0, 0, *card_dim))
-    card.x = x
-    card.y = y
-    card.scale = scale
-    main.cards = np.append(main.cards, card)
-    logging.info(f"Card rendered with vertexes {card._vertex_list}")
+# def render_card(main, x, y, scale, key):
+#     img = main.cards_images[key]
+#     card = pg.sprite.Sprite(img.get_region(0, 0, *card_dim))
+#     card.x = x
+#     card.y = y
+#     card.scale = scale
+#     main.cards = np.append(main.cards, card)
+#     logging.info(f"Card rendered with vertexes {card._vertex_list}")
 
 def render_face_up(main):
     if main.cards.size > 0:
@@ -93,5 +93,13 @@ def render_face_up(main):
     main.cards = np.array([])
     
     for i in range(4, -1, -1):
-        logging.info(f"Rendering card with type {main.board.face_up[i]}")
-        render_card(main, i * (main.width * gui_gap[0] - card_dim[0] * (main.height * (1 - gui_gap[1])) / card_dim[1]) / 4, main.height * gui_gap[1], (main.height * (1 - gui_gap[1])) / card_dim[1], main.board.face_up[i])
+        main.cards = np.append(main.cards, pg.shapes.Rectangle(main.width * gui_gap[0] / 5 * i, main.height * gui_gap[1], main.width * gui_gap[0] / 5, main.height * (1 - gui_gap[1]), color=colors[main.board.face_up[i]]))
+        # render_card(main, i * (main.width * gui_gap[0] - card_dim[0] * (main.height * (1 - gui_gap[1])) / card_dim[1]) / 4, main.height * gui_gap[1], (main.height * (1 - gui_gap[1])) / card_dim[1], main.board.face_up[i])
+
+def render_side_bar(main):
+    if main.side_bar_components.size > 0:
+        delete_sprites(main.side_bar_components)
+    
+    main.side_bar_components = np.array([])
+    
+    main.side_bar_components = np.append(main.side_bar_components, pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70)))
