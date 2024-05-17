@@ -7,8 +7,14 @@ class Player:
         """
         self.board = board
         self.hand: np.ndarray = np.array([])
-        self.score: np.ndarray = np.array([])
+        self.score: int = 0
     
     def draw_card (self):
         self.hand = np.append(self.hand, self.board.draw())
+    def pick_card (self, index: int):
+        self.hand = np.append(self.hand, self.board.pick())
+    
+    
+        
+
     

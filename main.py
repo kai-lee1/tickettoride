@@ -32,7 +32,7 @@ class Main(pg.window.Window):
         self.cards = np.array([])
         self.routes = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
-        self.side_bar_components = np.array([])
+        self.side_bar_components = dict()
         
         self.current_screen = "main"
                 
@@ -112,8 +112,8 @@ class Main(pg.window.Window):
             misc.draw_array(self.cities[:,1])
             if self.cards.size > 0:
                 misc.draw_array(self.cards)
-            if self.side_bar_components.size > 0:
-                misc.draw_array(self.side_bar_components)
+            if len(self.side_bar_components) > 0:
+                misc.draw_array(list(self.side_bar_components.values()))
 
     def on_mouse_press(self, x, y, button, modifiers):
         for city in self.cities:
@@ -124,6 +124,9 @@ class Main(pg.window.Window):
             if route is not None:
                 if (x,y) in route:
                     break
+        if (x, y) in self.side_bar_components["button"]:
+            logging.info("Button pressed")
+            self.board.players[turn].draw_card() #TODO doesnt work yet
 
 if __name__ == "__main__":
     main = Main(resizable=True)

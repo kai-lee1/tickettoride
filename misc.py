@@ -98,9 +98,12 @@ def render_face_up(main):
         # render_card(main, i * (main.width * gui_gap[0] - card_dim[0] * (main.height * (1 - gui_gap[1])) / card_dim[1]) / 4, main.height * gui_gap[1], (main.height * (1 - gui_gap[1])) / card_dim[1], main.board.face_up[i])
 
 def render_side_bar(main):
-    if main.side_bar_components.size > 0:
-        delete_sprites(main.side_bar_components)
+    if len(main.side_bar_components) > 0:
+        delete_sprites(list(main.side_bar_components.values()))
     
-    main.side_bar_components = np.array([])
+    main.side_bar_components = dict()
     
-    main.side_bar_components = np.append(main.side_bar_components, pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70)))
+    main.side_bar_components["background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70))
+    main.side_bar_components["button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0))
+
+

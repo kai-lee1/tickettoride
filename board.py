@@ -64,7 +64,7 @@ class Board:
         """
         if city1 not in self.network.nodes or city2 not in self.network.nodes:
             raise ValueError("One or more cities do not exist on the board.")
-        self.network.add_edge(city1, city2, cost=cost, c1=self.network.nodes[city1]['coords'], c2=self.network.nodes[city2]['coords'])
+        self.network.add_edge(city1, city2, player=None, cost=cost, c1=self.network.nodes[city1]['coords'], c2=self.network.nodes[city2]['coords'])
     
     def populate_deck(self):
         for i in range(144):
@@ -104,14 +104,26 @@ class Board:
         top = self.deck[0]
         self.deck = np.delete(self.deck, 0)
         return top
+    
+    def pick(self, index: int): #possibly doesn't work 
+        if self.face_up.size > index:
+            top = self.face_up[index]
+            self.face_up = np.delete(self.face_up, index)
+            self.turn_up()
+            return top
+        else:
+            logging.info("The index is out of range.")
+            return None
+        
 
     def claim_route(self, player: int, city1: str, city2: str):
         if city1 not in self.network.nodes or city2 not in self.network.nodes:
             logging.info("One or more cities do not exist on the board.")
         elif self.network.has_edge(city1, city2):
-            self.network.remove_edge(city1, city2)
-            self.network.add_edge(city1, city2, player=player)
+            self.network.edges[city1, city2]['player'] = player
         else:
             logging.info("The cities are not connected.")
+    
+
 
     
