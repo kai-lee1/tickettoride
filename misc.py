@@ -65,17 +65,18 @@ def render_city(main, data):
 render_cities = np.vectorize(render_city, signature='(),()->(n)')
 
 def render_route(main, data):
-    data = list(data)[0][2]
+    data = list(data)[2]
     c1 = data['c1']
     c1 = np.array([c1[0] - main.shift_x, main.image.height - main.shift_y - c1[1]]) * main.scale
     c2 = data['c2']
     c2 = np.array([c2[0] - main.shift_x, main.image.height - main.shift_y - c2[1]]) * main.scale
     cost = data['cost']
     if not (c1[0] < 0 or c1[0] >= main.width * gui_gap[0] or c1[1] < 0 or c1[1] >= main.height * gui_gap[1] or c2[0] < 0 or c2[0] >= main.width * gui_gap[0] or c2[1] < 0 or c2[1] >= main.height * gui_gap[1]):
+        logging.info(create_lines(np.array(c1), np.array(c2), main.scale, cost))
         return create_lines(np.array(c1), np.array(c2), main.scale, cost)
-    return np.array([])
+    return None
 
-render_routes = np.vectorize(render_route, signature='(),()->(n)')
+render_routes = np.vectorize(render_route, signature='(),(3)->()')
 
 # def render_card(main, x, y, scale, key):
 #     img = main.cards_images[key]

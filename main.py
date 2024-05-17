@@ -56,7 +56,7 @@ class Main(pg.window.Window):
                 
         self.cities = misc.render_cities(self, list(dict(self.board.network.nodes.data()).values()))
 
-        self.routes = misc.render_routes(self, np.array(self.board.network.edges.data()))
+        self.routes = np.hstack(misc.render_routes(self, list(self.board.network.edges.data())))
         
         misc.render_face_up(self)
         
