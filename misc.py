@@ -72,7 +72,7 @@ def render_route(main, data):
     c2 = np.array([c2[0] - main.shift_x, main.image.height - main.shift_y - c2[1]]) * main.scale
     cost = data['cost']
     if not (c1[0] < 0 or c1[0] >= main.width * gui_gap[0] or c1[1] < 0 or c1[1] >= main.height * gui_gap[1] or c2[0] < 0 or c2[0] >= main.width * gui_gap[0] or c2[1] < 0 or c2[1] >= main.height * gui_gap[1]):
-        logging.info(create_lines(np.array(c1), np.array(c2), main.scale, cost))
+        #logging.info(create_lines(np.array(c1), np.array(c2), main.scale, cost))
         return create_lines(np.array(c1), np.array(c2), main.scale, cost)
     return None
 
@@ -105,5 +105,3 @@ def render_side_bar(main):
     
     main.side_bar_components["background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70))
     main.side_bar_components["button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0))
-
-

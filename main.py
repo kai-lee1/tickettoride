@@ -4,6 +4,8 @@ import logging
 import os
 from board import Board
 import misc
+import server
+import threading
 
 class Main(pg.window.Window):
     def __init__(self, *args, **kwargs):
@@ -12,6 +14,9 @@ class Main(pg.window.Window):
         if os.path.exists('log.txt'):
             os.remove('log.txt')
         logging.basicConfig(filename='log.txt', level=logging.INFO)
+        
+        self.quit = False
+        self.ip_port = input("Enter the IP address and port of the server: ")
         
         self.image: pg.image.AbstractImage = pg.image.load('assets/blank.bmp')
         self.cards_images: dict =  {"L": pg.image.load('assets/locomotive.png'), 
@@ -37,8 +42,11 @@ class Main(pg.window.Window):
         self.current_screen = "main"
                 
         self.board = Board()
-                
+
         pg.clock.schedule_interval(self.update, self.update_tick)
+    
+    def test_server(self):
+        logging.info("Testing server connection")
 
     def update(self, dt):
         misc.update_background(self)
@@ -73,10 +81,11 @@ class Main(pg.window.Window):
             pg.clock.unschedule(self.update)
             pg.clock.schedule_interval(self.update, self.update_tick)
         
-        #logging.info(f"Update tick: {1/dt}")
+        #logging.info(f"Update tick: {dt}")
 
     def on_close(self):
         logging.info("Closing the application")
+        self.quit = True
         pg.app.exit()
 
     def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):
@@ -126,9 +135,10 @@ class Main(pg.window.Window):
                     break
         if (x, y) in self.side_bar_components["button"]:
             logging.info("Button pressed")
-            self.board.players[turn].draw_card() #TODO doesnt work yet
+            #self.board.players[turn].draw_card() #TODO doesnt work yet
 
 if __name__ == "__main__":
     main = Main(resizable=True)
-    pg.clock.schedule_interval(main.update, misc.target_fps)
+    thread = threading.Thread(target=server.repeat, args=(3, server.get_data, main))
+    thread.start()
     pg.app.run()

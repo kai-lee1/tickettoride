@@ -1,0 +1,7 @@
+{
+    "mock-server.settings.paths": {
+        "root": "c:\\Users\\varun\\Documents\\Personal Stuff\\TickettoRide\\tickettoride\\server",
+        "static": "",
+        "snapshots": "./snapshots"
+    }
+}
