@@ -15,6 +15,7 @@ class Board:
         self.discard: np.ndarray = np.array([])
         self.face_up: np.ndarray = np.array([])
         self.followed_player = None
+        self.turn = 0
 
         setup(self)
 
@@ -123,6 +124,7 @@ class Board:
             self.network.edges[city1, city2]['player'] = player
         else:
             logging.info("The cities are not connected.")
+            
     
 
 
