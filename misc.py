@@ -112,3 +112,27 @@ def render_side_bar(main):
     main.side_bar_components["text"] = pg.text.Label("Draw", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.25, y=main.height * gui_gap[1] * 0.1, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
     main.side_bar_components["scoredisplay"] = pg.text.Label(f"P1 Score: {main.board.players[0].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
     main.side_bar_components["scoredisplay2"] = pg.text.Label(f"P2 Score: {main.board.players[1].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.3, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+    #main.side_bar_components["end turn label"] = pg.text.Label("End your turn", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.2, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+
+    player1_hand = main.board.players[0].hand
+    card_width = main.width * (1 - gui_gap[0]) * 0.1
+    card_height = main.height * gui_gap[1] * 0.2
+    for i, card in enumerate(player1_hand):
+        card_x = main.width * gui_gap[0] + i * card_width * 0.4
+        card_y = main.height * gui_gap[1] * 0.6
+        main.side_bar_components[f"card_{i}"] = pg.shapes.Rectangle(card_x, card_y, card_width, card_height, color=colors[card])
+
+
+        #Render small boxes for each unique color in player 1's hand
+    # player1_hand = main.board.players[0].hand
+    # unique_colors = set(player1_hand)
+    # box_width = main.width * (1 - gui_gap[0]) * 0.1
+    # box_height = main.height * gui_gap[1] * 0.2
+    # for i, color in enumerate(unique_colors):
+    #     box_x = main.width * gui_gap[0] + i * box_width
+    #     box_y = main.height * gui_gap[1] * 0.6
+    #     main.side_bar_components[f"box_{color}"] = pg.shapes.Rectangle(box_x, box_y, box_width, box_height, color=colors[color])
+    #     color_count = player1_hand.len(color)
+    #     for color in :
+    #         if ()
+    #     main.side_bar_components[f"label_{color}"] = pg.text.Label(str(color_count), x=box_x + box_width / 2, y=box_y + box_height / 2, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
