@@ -119,10 +119,12 @@ class Main(pg.window.Window):
         if self.current_screen == "main":
             pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
             self.background.draw()
-            if self.routes.size > 0:
-                misc.draw_array(self.routes)
-            misc.draw_array(self.cities[:,0])
-            misc.draw_array(self.cities[:,1])
+            # if self.routes.size > 0:
+            #     misc.draw_array(self.routes)
+            misc.routes_batch.draw()
+            # misc.draw_array(self.cities[:,0])
+            # misc.draw_array(self.cities[:,1])
+            misc.city_batch.draw()
             if self.cards.size > 0:
                 misc.draw_array(self.cards)
             if len(self.side_bar_components) > 0:
@@ -134,13 +136,22 @@ class Main(pg.window.Window):
                 if (x,y) in city[0]:
                     logging.info(f"{city[1].text} clicked")
                     break
-        for route in self.routes:
-            if route is not None:
-                if (x,y) in route:
-                    logging.info(f"{route} clicked")
-                    roote = self.board.network.get_edge_data("London", "Copenhagen")
+        for line in self.routes:
+            if line is not None:
+                if (x,y) in line:
+                    logging.info(f"{line} clicked")
+                    vector = [line.x - line.x2, line.y - line.y2]
+                    unit_vector = tuple(vector / np.linalg.norm(vector))
+                    roote = None
+                    for route in self.board.network.edges.data("v"):
+                        if np.linalg.norm([route[2][0] - unit_vector[0], route[2][1] - unit_vector[1]]) < 0.01:
+                            roote = self.board.network.edges[route[0], route[1]]
+                            break
+                    if roote == None:
+                        break
                     cost = (len(roote['cost'])+1)/2
                     color = roote['cost'][0]
+                    logging.info(f"{roote['cost']}")
                     # logging.info("routes:")
                     # logging.info(self.routes)
                     break
@@ -163,6 +174,6 @@ class Main(pg.window.Window):
 
 if __name__ == "__main__":
     main = Main(resizable=True)
-    thread = threading.Thread(target=server.repeat, args=(3, server.get_data, main))
+    thread = threading.Thread(target=server.repeat, args=(0.5, server.get_data, main))
     thread.start()
     pg.app.run()

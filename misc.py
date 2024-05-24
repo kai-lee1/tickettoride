@@ -8,6 +8,9 @@ card_dim = (340, 210)
 
 gui_gap = (0.8, 0.8)
 
+routes_batch = pg.shapes.Batch()
+city_batch = pg.shapes.Batch()
+
 colors = { "L": (75, 0, 130),
             "R": (255, 0, 0),
             "O": (255, 165, 0),
@@ -26,7 +29,7 @@ draw_array = np.vectorize(lambda n: n.draw() if n is not None else None)
 
 get_length = lambda a: np.sum(np.vectorize(lambda n: int(n) if n.isdigit() else 0)(a))
 
-make_lines = np.vectorize(lambda c1, dist_vector, length, scale, i, data: pg.shapes.Line(c1[0] + dist_vector[0] * (i + 0.1) / length, c1[1] + dist_vector[1] * (i + 0.1) / length, c1[0] + dist_vector[0] * (i + 0.9) / length, c1[1] + dist_vector[1] * (i + 0.9) / length, color=colors[data], width=5*scale), signature='(2),(2),(),(),(),()->()')
+make_lines = np.vectorize(lambda c1, dist_vector, length, scale, i, data: pg.shapes.Line(c1[0] + dist_vector[0] * (i + 0.1) / length, c1[1] + dist_vector[1] * (i + 0.1) / length, c1[0] + dist_vector[0] * (i + 0.9) / length, c1[1] + dist_vector[1] * (i + 0.9) / length, color=colors[data], width=5*scale, batch=routes_batch), signature='(2),(2),(),(),(),()->()')
 
 def delete_help(sprite):
     try:
@@ -38,6 +41,7 @@ delete_sprites = np.vectorize(lambda n: delete_help(n) if n is not None else Non
 
 def create_lines(c1, c2, scale, cost: str):
     data = np.array(cost.split())
+
     
     dist_vector = c2 - c1
     
@@ -59,7 +63,7 @@ def render_city(main, data):
     adjusted_x = (coords[0] - main.shift_x) * main.scale
     adjusted_y = (main.image.height - main.shift_y - coords[1]) * main.scale
     if 0 <= adjusted_x < main.width * gui_gap[0] and 0 <= adjusted_y < main.height * gui_gap[1]:
-        return np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * main.scale, color=(0, 0, 0)), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * main.scale, anchor_x='center', anchor_y='baseline', font_size=10 * main.scale, color=(0, 0, 0, 255))])
+        return np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * main.scale, color=(0, 0, 0), batch=city_batch), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * main.scale, anchor_x='center', anchor_y='baseline', font_size=10 * main.scale, color=(0, 0, 0, 255), batch=city_batch)])
     return np.array([None, None])
 
 render_cities = np.vectorize(render_city, signature='(),()->(n)')
