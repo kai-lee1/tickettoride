@@ -11,8 +11,14 @@ class Player:
     
     def draw_card (self):
         self.hand = np.append(self.hand, self.board.draw())
+        
     def pick_card (self, index: int):
-        self.hand = np.append(self.hand, self.board.pick())
+        self.hand = np.append(self.hand, self.board.pick(index))
+    
+    def claim_route (self, route: str):
+        self.score += self.board.claim_route(self)
+        
+        
     
     
         

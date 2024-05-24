@@ -105,3 +105,6 @@ def render_side_bar(main):
     
     main.side_bar_components["background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70))
     main.side_bar_components["button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0))
+    main.side_bar_components["text"] = pg.text.Label("Draw", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.25, y=main.height * gui_gap[1] * 0.1, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+    main.side_bar_components["scoredisplay"] = pg.text.Label(f"P1 Score: {main.board.players[0].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+    main.side_bar_components["scoredisplay2"] = pg.text.Label(f"P2 Score: {main.board.players[1].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.3, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))

@@ -42,6 +42,10 @@ class Main(pg.window.Window):
         self.current_screen = "main"
                 
         self.board = Board()
+        self.board.make_players(2)
+
+
+
 
         pg.clock.schedule_interval(self.update, self.update_tick)
     
@@ -128,14 +132,34 @@ class Main(pg.window.Window):
         for city in self.cities:
             if city[0] is not None:
                 if (x,y) in city[0]:
+                    logging.info(f"{city[1].text} clicked")
                     break
         for route in self.routes:
             if route is not None:
                 if (x,y) in route:
+                    logging.info(f"{route} clicked")
+                    roote = self.board.network.get_edge_data("London", "Copenhagen")
+                    cost = (len(roote['cost'])+1)/2
+                    color = roote['cost'][0]
+                    # logging.info("routes:")
+                    # logging.info(self.routes)
                     break
+        i = -1
+        for card in self.cards:
+            i+=1
+            if card is not None:
+                if (x,y) in card:
+                    logging.info(f"{card} clicked")
+                    logging.info(f"i is {i}")
+                    self.board.players[self.board.turn].pick_card(4-i) 
+                    logging.info(self.board.players[self.board.turn].hand)
+                    break
+
         if (x, y) in self.side_bar_components["button"]:
             logging.info("Button pressed")
-            #self.board.players[turn].draw_card() #TODO doesnt work yet
+            self.board.players[self.board.turn].draw_card()
+            logging.info(self.board.players[self.board.turn].hand)
+        
 
 if __name__ == "__main__":
     main = Main(resizable=True)

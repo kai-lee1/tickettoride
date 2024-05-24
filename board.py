@@ -16,8 +16,10 @@ class Board:
         self.face_up: np.ndarray = np.array([])
         self.followed_player = None
         self.turn = 0
+        self.able_to_draw = 0
 
         setup(self)
+        
 
         self.populate_deck()
         
@@ -122,8 +124,15 @@ class Board:
             logging.info("One or more cities do not exist on the board.")
         elif self.network.has_edge(city1, city2):
             self.network.edges[city1, city2]['player'] = player
+            logging.info(f"Route {city1} - {city2} claimed by player {player}.")
         else:
             logging.info("The cities are not connected.")
+
+    # def end_turn(self):
+    #     if(self.board.draw_counter < 2):
+    #         self.turn += 1
+    #         self.followed_player = self.players[self.turn % len(self.players)]
+    #         logging.info(f"Player {self.turn % len(self.players)}'s turn.")
             
     
 
