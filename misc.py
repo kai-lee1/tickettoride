@@ -10,6 +10,7 @@ gui_gap = (0.8, 0.8)
 
 routes_batch = pg.shapes.Batch()
 city_batch = pg.shapes.Batch()
+side_batch = pg.shapes.Batch()
 
 colors = { "L": (75, 0, 130),
             "R": (255, 0, 0),
@@ -63,13 +64,15 @@ def render_city(main, data):
     adjusted_x = (coords[0] - main.shift_x) * main.scale
     adjusted_y = (main.image.height - main.shift_y - coords[1]) * main.scale
     if 0 <= adjusted_x < main.width * gui_gap[0] and 0 <= adjusted_y < main.height * gui_gap[1]:
+        main.board.network.nodes[data['name']]['visible'] = True
         return np.array([pg.shapes.Circle(adjusted_x, adjusted_y, 5 * main.scale, color=(0, 0, 0), batch=city_batch), pg.text.Label(data['name'], x=adjusted_x, y=adjusted_y + 5 * main.scale, anchor_x='center', anchor_y='baseline', font_size=10 * main.scale, color=(0, 0, 0, 255), batch=city_batch)])
+    main.board.network.nodes[data['name']]['visible'] = False
     return np.array([None, None])
 
 render_cities = np.vectorize(render_city, signature='(),()->(n)')
 
-def render_route(main, data):
-    data = list(data)[2]
+def render_route(main, route):
+    data = list(route)[2]
     c1 = data['c1']
     c1 = np.array([c1[0] - main.shift_x, main.image.height - main.shift_y - c1[1]]) * main.scale
     c2 = data['c2']
@@ -77,7 +80,9 @@ def render_route(main, data):
     cost = data['cost']
     if not (c1[0] < 0 or c1[0] >= main.width * gui_gap[0] or c1[1] < 0 or c1[1] >= main.height * gui_gap[1] or c2[0] < 0 or c2[0] >= main.width * gui_gap[0] or c2[1] < 0 or c2[1] >= main.height * gui_gap[1]):
         #logging.info(create_lines(np.array(c1), np.array(c2), main.scale, cost))
+        main.board.network.edges[route[0], route[1]]['visible'] = True
         return create_lines(np.array(c1), np.array(c2), main.scale, cost)
+    main.board.network.edges[route[0], route[1]]['visible'] = False
     return None
 
 render_routes = np.vectorize(render_route, signature='(),(3)->()')
@@ -107,32 +112,31 @@ def render_side_bar(main):
     
     main.side_bar_components = dict()
     
-    main.side_bar_components["background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70))
-    main.side_bar_components["button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0))
-    main.side_bar_components["text"] = pg.text.Label("Draw", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.25, y=main.height * gui_gap[1] * 0.1, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
-    main.side_bar_components["scoredisplay"] = pg.text.Label(f"P1 Score: {main.board.players[0].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
-    main.side_bar_components["scoredisplay2"] = pg.text.Label(f"P2 Score: {main.board.players[1].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.3, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
-    #main.side_bar_components["end turn label"] = pg.text.Label("End your turn", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.2, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+    main.side_bar_components[f"background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70), batch=side_batch)
+    main.side_bar_components[f"button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0), batch=side_batch)
+    main.side_bar_components[f"text"] = pg.text.Label("Draw", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.25, y=main.height * gui_gap[1] * 0.1, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+    main.side_bar_components[f"scoredisplay1"] = pg.text.Label(f"P1 Score: {main.board.players[0].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+    main.side_bar_components[f"scoredisplay2"] = pg.text.Label(f"P2 Score: {main.board.players[1].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.3, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
 
-    player1_hand = main.board.players[0].hand
-    card_width = main.width * (1 - gui_gap[0]) * 0.1
-    card_height = main.height * gui_gap[1] * 0.2
-    for i, card in enumerate(player1_hand):
-        card_x = main.width * gui_gap[0] + i * card_width * 0.4
-        card_y = main.height * gui_gap[1] * 0.6
-        main.side_bar_components[f"card_{i}"] = pg.shapes.Rectangle(card_x, card_y, card_width, card_height, color=colors[card])
-
-
-        #Render small boxes for each unique color in player 1's hand
-    # player1_hand = main.board.players[0].hand
-    # unique_colors = set(player1_hand)
-    # box_width = main.width * (1 - gui_gap[0]) * 0.1
-    # box_height = main.height * gui_gap[1] * 0.2
-    # for i, color in enumerate(unique_colors):
-    #     box_x = main.width * gui_gap[0] + i * box_width
-    #     box_y = main.height * gui_gap[1] * 0.6
-    #     main.side_bar_components[f"box_{color}"] = pg.shapes.Rectangle(box_x, box_y, box_width, box_height, color=colors[color])
-    #     color_count = player1_hand.len(color)
-    #     for color in :
-    #         if ()
-    #     main.side_bar_components[f"label_{color}"] = pg.text.Label(str(color_count), x=box_x + box_width / 2, y=box_y + box_height / 2, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255))
+    #Render small boxes for each unique color in player 1's hand
+    player_hand = main.followed_player.hand
+    unique_colors, amounts = np.unique(player_hand, return_counts=True)
+    box_width = main.width * (1 - gui_gap[0]) * 0.1
+    box_height = main.height * gui_gap[1] * 0.1
+    for i, color in enumerate(unique_colors):
+        box_x = main.width * gui_gap[0] + i * box_width
+        box_y = main.height * gui_gap[1] * 0.5
+        main.side_bar_components[f"box_{color}"] = pg.shapes.Rectangle(box_x, box_y, box_width, box_height, color=colors[color], batch=side_batch)
+        color_count = amounts[i]
+        main.side_bar_components[f"label_{color}"] = pg.text.Label(str(color_count), x=box_x + box_width / 2, y=box_y, anchor_x='center', anchor_y='top', font_name='Times New Roman', font_size=16, color=(0, 0, 0, 255), batch=side_batch)
+    
+    
+    #Render info about selected route
+    if main.selected is not None and main.selected in main.board.network.edges:
+        route = main.selected
+        data = list(route)[2]
+        c1 = data['c1']
+        c2 = data['c2']
+        cost = data['cost']
+        main.side_bar_components[f"route_info1"] = pg.text.Label(f"{route[0]} <—> {route[1]}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.7, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+        main.side_bar_components[f"route_info2"] = pg.text.Label(f"Cost: {cost}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.65, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)

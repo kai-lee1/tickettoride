@@ -20,7 +20,6 @@ class Board:
 
         setup(self)
         
-
         self.populate_deck()
         
     def make_players(self, num: int) -> None:
@@ -54,7 +53,7 @@ class Board:
             x (float): The x-coordinate of the city.
             y (float): The y-coordinate of the city.
         """
-        self.network.add_node(name, coords=(x, y), name=name)
+        self.network.add_node(name, coords=(x, y), name=name, visible=False)
 
     def add_connection(self, city1: str, city2: str, cost: str) -> None:
         """
@@ -68,7 +67,7 @@ class Board:
         if city1 not in self.network.nodes or city2 not in self.network.nodes:
             raise ValueError("One or more cities do not exist on the board.")
         vector = tuple([self.network.nodes[city1]['coords'][0] - self.network.nodes[city2]['coords'][0], -self.network.nodes[city1]['coords'][1] + self.network.nodes[city2]['coords'][1]])
-        self.network.add_edge(city1, city2, player=None, cost=cost, c1=self.network.nodes[city1]['coords'], c2=self.network.nodes[city2]['coords'], v=tuple(vector / np.linalg.norm(vector)))
+        self.network.add_edge(city1, city2, player=None, cost=cost, c1=self.network.nodes[city1]['coords'], c2=self.network.nodes[city2]['coords'], v=tuple(vector / np.linalg.norm(vector)), visible=False)
     
     def populate_deck(self):
         for i in range(144):

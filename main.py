@@ -19,15 +19,15 @@ class Main(pg.window.Window):
         self.ip_port = input("Enter the IP address and port of the server: ")
         
         self.image: pg.image.AbstractImage = pg.image.load('assets/blank.bmp')
-        self.cards_images: dict =  {"L": pg.image.load('assets/locomotive.png'), 
-                            "R": pg.image.load('assets/red.png'),
-                            "O": pg.image.load('assets/orange.png'),
-                            "Y": pg.image.load('assets/yellow.png'),
-                            "G": pg.image.load('assets/green.png'),
-                            "B": pg.image.load('assets/blue.png'),
-                            "P": pg.image.load('assets/purple.png'),
-                            "U": pg.image.load('assets/black.png'),
-                            "W": pg.image.load('assets/white.png')}
+        # self.cards_images: dict =  {"L": pg.image.load('assets/locomotive.png'), 
+        #                     "R": pg.image.load('assets/red.png'),
+        #                     "O": pg.image.load('assets/orange.png'),
+        #                     "Y": pg.image.load('assets/yellow.png'),
+        #                     "G": pg.image.load('assets/green.png'),
+        #                     "B": pg.image.load('assets/blue.png'),
+        #                     "P": pg.image.load('assets/purple.png'),
+        #                     "U": pg.image.load('assets/black.png'),
+        #                     "W": pg.image.load('assets/white.png')}
         self.shift_x = 0
         self.shift_y = 0
         self.scale = 1.0
@@ -39,13 +39,13 @@ class Main(pg.window.Window):
         self.cities = np.array([[None, None]], ndmin=2)
         self.side_bar_components = dict()
         
+        self.selected = None
         self.current_screen = "main"
                 
         self.board = Board()
         self.board.make_players(2)
-
-
-
+        
+        self.followed_player = self.board.players[0]
 
         pg.clock.schedule_interval(self.update, self.update_tick)
     
@@ -119,41 +119,35 @@ class Main(pg.window.Window):
         if self.current_screen == "main":
             pg.gl.glTexParameteri(pg.gl.GL_TEXTURE_2D, pg.gl.GL_TEXTURE_MAG_FILTER, pg.gl.GL_NEAREST)
             self.background.draw()
-            # if self.routes.size > 0:
-            #     misc.draw_array(self.routes)
             misc.routes_batch.draw()
-            # misc.draw_array(self.cities[:,0])
-            # misc.draw_array(self.cities[:,1])
             misc.city_batch.draw()
             if self.cards.size > 0:
                 misc.draw_array(self.cards)
-            if len(self.side_bar_components) > 0:
-                misc.draw_array(list(self.side_bar_components.values()))
+            misc.side_batch.draw()
 
     def on_mouse_press(self, x, y, button, modifiers):
         for city in self.cities:
             if city[0] is not None:
-                if (x,y) in city[0]:
+                if self.board.network.nodes[city[1].text]['visible'] == True and (x,y) in city[0]:
                     logging.info(f"{city[1].text} clicked")
+                    self.selected = self.board.network[city[1].text]
                     break
         for line in self.routes:
             if line is not None:
                 if (x,y) in line:
-                    logging.info(f"{line} clicked")
                     vector = [line.x - line.x2, line.y - line.y2]
                     unit_vector = tuple(vector / np.linalg.norm(vector))
                     roote = None
-                    for route in self.board.network.edges.data("v"):
-                        if np.linalg.norm([route[2][0] - unit_vector[0], route[2][1] - unit_vector[1]]) < 0.01:
-                            roote = self.board.network.edges[route[0], route[1]]
+                    for route in self.board.network.edges.data():
+                        if route[2]['visible'] and np.linalg.norm([route[2]['v'][0] - unit_vector[0], route[2]['v'][1] - unit_vector[1]]) < 0.01:
+                            roote = route
                             break
                     if roote == None:
                         break
-                    cost = (len(roote['cost'])+1)/2
-                    color = roote['cost'][0]
-                    logging.info(f"{roote['cost']}")
-                    # logging.info("routes:")
-                    # logging.info(self.routes)
+                    self.selected = roote
+                    cost = (len(roote[2]['cost'])+1)/2
+                    color = roote[2]['cost'][0]
+                    logging.info(f"{roote[2]['cost']}")
                     break
         i = -1
         for card in self.cards:
@@ -176,4 +170,9 @@ if __name__ == "__main__":
     main = Main(resizable=True)
     thread = threading.Thread(target=server.repeat, args=(0.5, server.get_data, main))
     thread.start()
-    pg.app.run()
+    try:
+        pg.app.run()
+    except:
+        main.quit = True
+        thread.join()
+        raise
