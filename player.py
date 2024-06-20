@@ -8,6 +8,7 @@ class Player:
         self.board = board
         self.hand: np.ndarray = np.array([])
         self.score: int = 0
+        self.name: str = f""
     
     def draw_card (self):
         self.hand = np.append(self.hand, self.board.draw())
@@ -17,10 +18,6 @@ class Player:
     
     def claim_route (self, route: str):
         self.score += self.board.claim_route(self)
-        
-        
-    
-    
-        
 
-    
+    def __str__(self):
+        return self.name

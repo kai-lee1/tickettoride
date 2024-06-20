@@ -32,6 +32,7 @@ class Board:
         self.players = np.array([])
         for i in range(num):
             self.players = np.append(self.players, Player(self))
+            self.players[i].name = f"{i}"
         
         self.followed_player = self.players[0]
 

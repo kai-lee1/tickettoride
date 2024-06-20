@@ -36,6 +36,7 @@ class Main(pg.window.Window):
         
         self.cards = np.array([])
         self.routes = np.array([])
+        self.claims = np.array([])
         self.cities = np.array([[None, None]], ndmin=2)
         self.side_bar_components = dict()
         
@@ -61,6 +62,9 @@ class Main(pg.window.Window):
         
         if self.routes.size > 0:
             misc.delete_sprites(self.routes)
+            
+        if self.claims.size > 0:
+            misc.delete_sprites(self.claims)
         
         self.cities = np.array([[None, None]], ndmin=2)
         
@@ -69,6 +73,10 @@ class Main(pg.window.Window):
         self.cities = misc.render_cities(self, list(dict(self.board.network.nodes.data()).values()))
 
         self.routes = np.hstack(misc.render_routes(self, list(self.board.network.edges.data())))
+        
+        self.claims = np.array([])
+        
+        self.claims = misc.render_claims(self, list(self.board.network.edges.data()))
         
         misc.render_face_up(self)
         
@@ -131,7 +139,7 @@ class Main(pg.window.Window):
                 if self.board.network.nodes[city[1].text]['visible'] == True and (x,y) in city[0]:
                     logging.info(f"{city[1].text} clicked")
                     self.selected = self.board.network[city[1].text]
-                    break
+                    return
         for line in self.routes:
             if line is not None:
                 if (x,y) in line:
@@ -148,7 +156,7 @@ class Main(pg.window.Window):
                     cost = (len(roote[2]['cost'])+1)/2
                     color = roote[2]['cost'][0]
                     logging.info(f"{roote[2]['cost']}")
-                    break
+                    return
         i = -1
         for card in self.cards:
             i+=1
@@ -158,12 +166,18 @@ class Main(pg.window.Window):
                     logging.info(f"i is {i}")
                     self.board.players[self.board.turn].pick_card(4-i) 
                     logging.info(self.board.players[self.board.turn].hand)
-                    break
+                    return
 
         if (x, y) in self.side_bar_components["button"]:
             logging.info("Button pressed")
             self.board.players[self.board.turn].draw_card()
             logging.info(self.board.players[self.board.turn].hand)
+            return
+        
+        if "claim_route_button" in self.side_bar_components and (x, y) in self.side_bar_components["claim_route_button"]:
+            logging.info("Route claimed pressed")
+            self.board.claim_route(self.board.players[self.board.turn], self.selected[0], self.selected[1])
+            return
         
 
 if __name__ == "__main__":

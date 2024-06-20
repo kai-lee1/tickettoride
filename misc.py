@@ -87,6 +87,19 @@ def render_route(main, route):
 
 render_routes = np.vectorize(render_route, signature='(),(3)->()')
 
+def render_claim(main, route):
+    data = list(route)[2]
+    c1 = data['c1']
+    c1 = np.array([c1[0] - main.shift_x, main.image.height - main.shift_y - c1[1]]) * main.scale
+    c2 = data['c2']
+    c2 = np.array([c2[0] - main.shift_x, main.image.height - main.shift_y - c2[1]]) * main.scale
+    if not (c1[0] < 0 or c1[0] >= main.width * gui_gap[0] or c1[1] < 0 or c1[1] >= main.height * gui_gap[1] or c2[0] < 0 or c2[0] >= main.width * gui_gap[0] or c2[1] < 0 or c2[1] >= main.height * gui_gap[1]):
+        if main.board.network.edges[route[0], route[1]]['player'] is not None:
+            return np.array([pg.shapes.Line(c1[0], c1[1], c2[0], c2[1], color=(100, 100, 100), width=2 * main.scale, batch=routes_batch)])
+    return None
+
+render_claims = np.vectorize(render_claim, signature='(),(3)->()')
+
 # def render_card(main, x, y, scale, key):
 #     img = main.cards_images[key]
 #     card = pg.sprite.Sprite(img.get_region(0, 0, *card_dim))
@@ -115,8 +128,7 @@ def render_side_bar(main):
     main.side_bar_components[f"background"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]), main.height, color=(217, 139, 70), batch=side_batch)
     main.side_bar_components[f"button"] = pg.shapes.Rectangle(main.width * gui_gap[0], 0, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0), batch=side_batch)
     main.side_bar_components[f"text"] = pg.text.Label("Draw", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.25, y=main.height * gui_gap[1] * 0.1, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
-    main.side_bar_components[f"scoredisplay1"] = pg.text.Label(f"P1 Score: {main.board.players[0].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
-    main.side_bar_components[f"scoredisplay2"] = pg.text.Label(f"P2 Score: {main.board.players[1].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.3, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+    main.side_bar_components[f"scoredisplay"] = pg.text.Label(f"Current Player Score: {main.board.players[main.board.turn].score}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.4, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
 
     #Render small boxes for each unique color in player 1's hand
     player_hand = main.followed_player.hand
@@ -138,5 +150,11 @@ def render_side_bar(main):
         c1 = data['c1']
         c2 = data['c2']
         cost = data['cost']
+        main.side_bar_components[f"route_background"] = pg.shapes.Rectangle(main.width * gui_gap[0], main.height * gui_gap[1] * 0.6, main.width * (1 - gui_gap[0]), main.height * gui_gap[1] * 0.4, color=(217, 217, 217), batch=side_batch)
         main.side_bar_components[f"route_info1"] = pg.text.Label(f"{route[0]} <—> {route[1]}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.7, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
         main.side_bar_components[f"route_info2"] = pg.text.Label(f"Cost: {cost}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.65, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+        if main.board.network.edges[route[0], route[1]]['player'] is None:
+            main.side_bar_components[f"claim_route_button"] = pg.shapes.Rectangle(main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.8, main.width * (1 - gui_gap[0]) * 0.5, main.height * gui_gap[1] * 0.2, color=(0, 255, 0), batch=side_batch)
+            main.side_bar_components[f"claim_route_text"] = pg.text.Label("Claim Route", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.75, y=main.height * gui_gap[1] * 0.9, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
+        if main.board.network.edges[route[0], route[1]]['player'] is not None:
+            main.side_bar_components[f"route_claimed"] = pg.text.Label(f"Claimed by Player {main.board.network.edges[route[0], route[1]]['player']}", x=main.width * gui_gap[0] + main.width * (1 - gui_gap[0]) * 0.5, y=main.height * gui_gap[1] * 0.8, anchor_x='center', anchor_y='center', font_name='Times New Roman', font_size=12, color=(0, 0, 0, 255), batch=side_batch)
